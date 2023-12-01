@@ -1,0 +1,45 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+123
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+q0
+Type the character position within the string:
+1
+The character found at 1 posiition is '0'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+abc
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+a
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+9
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+0

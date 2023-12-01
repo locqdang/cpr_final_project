@@ -1,0 +1,28 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+4
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+123
+word #1 is '123'
+Type a few words separated by space (q - to quit):
+Computer Principle
+word #1 is 'Computer'
+word #2 is 'Principle'
+Type a few words separated by space (q - to quit):
+Computer Data Science
+word #1 is 'Computer'
+word #2 is 'Data Science'
+Type a few words separated by space (q - to quit):
+kdsjfksajdfksadjf                                                                                                         kasdjfka f           123124                                                                                            413423                   yay                                                                                            kdjfkdsj
+word #1 is 'kdsjfksajdfksadjf'
+word #2 is '                                                                                                        kasdjfka f           123124                                                                                            413423                   yay                             '
+Type a few words separated by space (q - to quit):
+word #1 is 'kdjfkdsj'
+Type a few words separated by space (q - to quit):
+
+Type a few words separated by space (q - to quit):
