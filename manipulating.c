@@ -7,10 +7,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define BUFFER_SIZE 80
 #include "manipulating.h"
-
+asdasdsad
 
 /* Version 1 */
-/*
+
 void manipulating(void)
 {
     // Display a start message
@@ -50,7 +50,7 @@ void manipulating(void)
 
     // Display an end message
     printf("*** End of Concatenating Strings Demo ***\n\n");
-}*/
+}
 
 
 
