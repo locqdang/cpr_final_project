@@ -3,14 +3,16 @@
 #include "converting.h"		//include function prototype(s)
 
 
-/*String-to-interger conversion module.
-Receives a double numeric string from user,
-then converts it to the equivalent double number and output the number
-The program quits when user enters "q" as the double numeric string*/
+/*String-to-interger conversion module.*/
 
+
+
+/*Receives a numeric string from user,
+then converts it to the equivalent  number and output the number
+The program quits when user enters "q" as the numeric string */
 void converting() {
 /* Version 1 */
-/*	printf("*** Start of Converting Strings to int Demo ***\n");
+	printf("*** Start of Converting Strings to int Demo ***\n");
 	char	intString[BUFFER_SIZE];
 	int		intNumber;
 
@@ -24,9 +26,12 @@ void converting() {
 			printf("Converted number is %d\n", intNumber);
 		}
 	} while (strcmp(intString, "q") != 0);
-	printf("*** End of Converting Strings to iint Demo ***\n\n");*/
+	printf("*** End of Converting Strings to iint Demo ***\n\n");
 
 
+/*Receives a double numeric string from user,
+then converts it to the equivalent number and output the number
+The program quits when user enters "q" as the double numeric string */
 /* Version 2 */
 // >> insert here
 	printf("*** Start of Converting Strings to int Demo ***\n");
