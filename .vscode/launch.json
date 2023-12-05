@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Janine B. Ladera/Desktop/cpr_final_project-1",
-      "program": "c:/Users/Janine B. Ladera/Desktop/cpr_final_project-1/build/Debug/outDebug",
+      "cwd": "c:/Users/Janine B. Ladera/Desktop/cpr_final_project-2",
+      "program": "c:/Users/Janine B. Ladera/Desktop/cpr_final_project-2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
