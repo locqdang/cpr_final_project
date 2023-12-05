@@ -8,7 +8,7 @@
 #define BUFFER_SIZE 80
 #include "manipulating.h"
 
-
+//absss
 /* Version 1 */
 /*
 void manipulating(void)
