@@ -50,7 +50,7 @@ void manipulating(void)
 
     // Display an end message
     printf("*** End of Concatenating Strings Demo ***\n\n");
-}
+}/*
 
 
 
