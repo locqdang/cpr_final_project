@@ -7,21 +7,22 @@ Which module to run?
 0 - Exit
 Which module to run?
 2
-*** Start of Concatenating Strings Demo ***
-Type the 1st string (q - to quit):
-
-Type the 2nd string:
-
-Concatenated string is ''
-Type the 1st string (q - to quit):
-Word
-Type the 2nd string:
-Microsoft
-Concatenated string is 'WordMicrosoft'
-Type the 1st string (q - to quit):
-ENTER the string
-    Hello
-Type the 2nd string:
-Concatenated string is 'ENTER the string
-                           Hello'
-Type the 1st string (q - to quit):
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+The Final Project
+Type the 2nd string to compare:
+The Walking Dead
+'The Final Project' string is less than 'The Walking Dead'
+Type the 1st string to compare (q - to quit):
+Happy Holidays
+Type the 2nd string to compare:
+Happy Hodilays
+'Happy Hodilays' string is greater than 'Happy Holidays'
+Type the 1st string to compare (q - to quit):
+merry christmas
+Type the 2nd string to compare:
+merry christmas
+'merry christmas' string is equal to 'merry christmas'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Comparing Strings Demo ***
