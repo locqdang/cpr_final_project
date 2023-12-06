@@ -73,6 +73,6 @@ void tokenizing(void);
 				nextPhrase = strtok(NULL, ",");
 			}
 		}
-	} while (strcmp(phrases, 'q') != 0);
+	} while (strcmp(phrases, "q") != 0);
 	printf("*** End of Tokenizing Phrases Demo ***\n\n");
 }
