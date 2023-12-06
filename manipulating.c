@@ -56,23 +56,47 @@ void manipulating(void)
 
 
 /* Version 2 */
+
+ /* It allows users to input stringsand compares them using the strcmp function in a loop.
+ The loop continues until the user inputs 'q' to quit. 
+The comparison results (less than, equal, or greater than) are displayed for each pair of strings. */
+
+
+
 void manipulating(void)
 {
+
     printf("*** Start of Comparing Strings Demo ***\n");
+
+    // Declare two character arrays to store input strings.
     char compare1[BUFFER_SIZE];
     char compare2[BUFFER_SIZE];
+
+    // Declare an integer variable to store the result of string comparison.
     int result;
+
+    // Start a do-while loop for user interaction.
     do
     {
+        // Prompt the user to input the first string for comparison.
         printf("Type the 1st string to compare (q - to quit):\n");
+
+        // Use fgets to read the input string and remove the newline character.
         fgets(compare1, BUFFER_SIZE, stdin);
         compare1[strlen(compare1) - 1] = '\0';
+
+        // Check if the user wants to quit (entered 'q').
         if (strcmp(compare1, "q") != 0)
         {
+            // Prompt the user to input the second string for comparison.
             printf("Type the 2nd string to compare:\n");
             fgets(compare2, BUFFER_SIZE, stdin);
             compare2[strlen(compare2) - 1] = '\0';
+
+            // Use strcmp to compare the two strings and store the result.
             result = strcmp(compare1, compare2);
+
+            // Display the result of the comparison.
             if (result < 0)
             {
                 printf("\'%s' string is less than \'%s' \n", compare1, compare2);
@@ -83,17 +107,16 @@ void manipulating(void)
             }
             else
             {
-                printf("\'%s' string is greater than \'%s' \n", compare1, compare2);
+                printf("\'%s' string is greater than \'%s' \n", compare2, compare1);
             }
-
         }
 
-    } while (strcmp(compare1, "q") != 0);
-
-    {
-        printf("*** End of Comparing Strings Demo *** \n\n");
-
-    }
+    } 
+    while (strcmp(compare1, "q") != 0);  // Continue the loop until the user enters 'q'.
+{
+    // Display an end message for the comparing strings demo.
+    printf("*** End of Comparing Strings Demo *** \n\n");
+}
 }
 
 
