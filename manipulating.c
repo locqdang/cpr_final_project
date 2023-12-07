@@ -9,7 +9,7 @@
 #include "manipulating.h"
 
 
-/* Version 1 */
+// Version 1 
 /*
 void manipulating(void)
 {
@@ -50,12 +50,12 @@ void manipulating(void)
 
     // Display an end message
     printf("*** End of Concatenating Strings Demo ***\n\n");
-}/*
+}*/
 
 
 
 
-/* Version 2 */
+// Version 2
 
  /* It allows users to input stringsand compares them using the strcmp function in a loop.
  The loop continues until the user inputs 'q' to quit. 
