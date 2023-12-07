@@ -55,7 +55,7 @@ void tokenizing(void)
 
 
 /* Version 2 */
-void tokenizing(void);
+void tokenizing(void)
 {
 	printf("*** Start of Tokenizing Phrases Demo ***\n");
 	char	phrases[BUFFER_SIZE];
