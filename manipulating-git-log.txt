@@ -1,94 +1,934 @@
+commit 5d5ebb8406ea2e1b83a7ab3cae67071e27c29af9
+Merge: 8fe595b fb6799d
+Author: DongNgo <dngo13@myseneca.ca>
+Date:   Thu Dec 7 15:16:39 2023 -0500
+
+    Merge branch 'main' of converting-testing.txt
+    
+     https://github.com/locqdang/cpr_final_project
+
+commit 8fe595bb2eaf954c0cdac1d57628bf174b304e04
+Author: DongNgo <dngo13@myseneca.ca>
+Date:   Thu Dec 7 15:07:07 2023 -0500
+
+    converting-testing.txt is done
+
+diff --git a/manipulating-git-log.txt b/manipulating-git-log.txt
+index f14835e..7d07298 100644
+--- a/manipulating-git-log.txt
++++ b/manipulating-git-log.txt
+@@ -1,94 +1,94 @@
+-commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:57 2023 -0500
+-
+-    Add files via upload
+-
+-commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:14 2023 -0500
+-
+-    Delete .vs directory
+-
+-commit 7f2c689bc852911f778e67838eb34a599de1c3f0
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:01 2023 -0500
+-
+-    Delete converting directory
+-
+-commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:52 2023 -0500
+-
+-    Delete fundamental - Bahareh directory
+-
+-commit b5c25d1188807fd9fc3c0731168027a28b89d06c
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:41 2023 -0500
+-
+-    Delete main directory
+-
+-commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:31 2023 -0500
+-
+-    Delete manipulating directory
+-
+-commit 68d9e3081d180945dad389d4e0088bb09caccdba
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:21 2023 -0500
+-
+-    Delete source_code_photos directory
+-
+-commit b5d7b24eb731437832793513ee20d6f17323cc6f
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:10 2023 -0500
+-
+-    Delete to_submit directory
+-
+-commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:04:49 2023 -0500
+-
+-    Delete Tokenization directory
+-
+-commit ab0d331de76203669f0b167c8e0c1c0e8f622215
+-Merge: 676e75f 18e08f7
+-Author: Lockie <quacktothetenth@duck.com>
+-Date:   Thu Nov 30 19:12:59 2023 -0500
+-
+-    Merge branch 'main' of github.com:locqdang/cpr_final_project
+-    pulling after there is some change in the remote repo
+-
+-commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 19:06:37 2023 -0500
+-
+-    test push
+-
+-commit 18e08f7220fb515dc26e68f973c2d8361b69c823
+-Merge: 8a65d16 777a73d
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 19:00:37 2023 -0500
+-
+-    Merge pull request #1 from quacktothetenth/main
+-    
+-    Update main.c
+-
+-commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
+-Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
+-Date:   Thu Nov 30 18:58:36 2023 -0500
+-
+-    Update main.c
+-
+-commit 8a65d166804c002f745498cd8897aa885ab15635
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 15:10:40 2023 -0500
+-
+-    first commit
+-
+-commit 12a5298b18505b5608d7cee822c2440b60b54036
+-Author: Lockie <quacktothetenth@duck.com>
+-Date:   Thu Nov 30 14:42:29 2023 -0500
+-
+-    version 1.0.0: git created
++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:57 2023 -0500
++
++    Add files via upload
++
++commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:14 2023 -0500
++
++    Delete .vs directory
++
++commit 7f2c689bc852911f778e67838eb34a599de1c3f0
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:01 2023 -0500
++
++    Delete converting directory
++
++commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:52 2023 -0500
++
++    Delete fundamental - Bahareh directory
++
++commit b5c25d1188807fd9fc3c0731168027a28b89d06c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:41 2023 -0500
++
++    Delete main directory
++
++commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:31 2023 -0500
++
++    Delete manipulating directory
++
++commit 68d9e3081d180945dad389d4e0088bb09caccdba
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:21 2023 -0500
++
++    Delete source_code_photos directory
++
++commit b5d7b24eb731437832793513ee20d6f17323cc6f
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:10 2023 -0500
++
++    Delete to_submit directory
++
++commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:04:49 2023 -0500
++
++    Delete Tokenization directory
++
++commit ab0d331de76203669f0b167c8e0c1c0e8f622215
++Merge: 676e75f 18e08f7
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 19:12:59 2023 -0500
++
++    Merge branch 'main' of github.com:locqdang/cpr_final_project
++    pulling after there is some change in the remote repo
++
++commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:06:37 2023 -0500
++
++    test push
++
++commit 18e08f7220fb515dc26e68f973c2d8361b69c823
++Merge: 8a65d16 777a73d
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:00:37 2023 -0500
++
++    Merge pull request #1 from quacktothetenth/main
++    
++    Update main.c
++
++commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
++Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
++Date:   Thu Nov 30 18:58:36 2023 -0500
++
++    Update main.c
++
++commit 8a65d166804c002f745498cd8897aa885ab15635
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 15:10:40 2023 -0500
++
++    first commit
++
++commit 12a5298b18505b5608d7cee822c2440b60b54036
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 14:42:29 2023 -0500
++
++    version 1.0.0: git created
+
+commit 181c7a259955699426caf33b34b5bd5caaf8fb73
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Thu Dec 7 15:01:46 2023 -0500
+
+    manipulating_v2
+
+diff --git a/manipulating-testing.txt b/manipulating-testing.txt
+index 65ca403..03e019d 100644
+--- a/manipulating-testing.txt
++++ b/manipulating-testing.txt
+@@ -1,5 +1,33 @@
+ Which module to run?
+ 
++1 - Fundamentals
++2 - Manipulation
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++*** Start of Concatenating Strings Demo ***
++Type the 1st string (q - to quit):
++
++Type the 2nd string:
++
++Concatenated string is ''
++Type the 1st string (q - to quit):
++Word
++Type the 2nd string:
++Microsoft
++Concatenated string is 'WordMicrosoft'
++Type the 1st string (q - to quit):
++ENTER the string
++    Hello
++Type the 2nd string:
++Concatenated string is 'ENTER the string
++                           Hello'
++Type the 1st string (q - to quit):
++
++Which module to run?
++
+ 1 - Fundamentals
+ 2 - Manipulation
+ 3 - Converting
+diff --git a/manipulating.c b/manipulating.c
+index 6aa7d7d..d0f9f64 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -9,7 +9,7 @@
+ #include "manipulating.h"
+ 
+ 
+-/* Version 1 */
++// Version 1 
+ /*
+ void manipulating(void)
+ {
+@@ -50,12 +50,12 @@ void manipulating(void)
+ 
+     // Display an end message
+     printf("*** End of Concatenating Strings Demo ***\n\n");
+-}/*
++}*/
+ 
+ 
+ 
+ 
+-/* Version 2 */
++// Version 2
+ 
+  /* It allows users to input stringsand compares them using the strcmp function in a loop.
+  The loop continues until the user inputs 'q' to quit. 
+
+commit 616862a43a37927485e2af6f1d89a899b674c68f
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 22:42:11 2023 -0500
+
+    updated content of manipulating-testing.txt
+
+diff --git a/manipulating-testing.txt b/manipulating-testing.txt
+index 18e2dd2..65ca403 100644
+--- a/manipulating-testing.txt
++++ b/manipulating-testing.txt
+@@ -7,21 +7,22 @@ Which module to run?
+ 0 - Exit
+ Which module to run?
+ 2
+-*** Start of Concatenating Strings Demo ***
+-Type the 1st string (q - to quit):
+-
+-Type the 2nd string:
+-
+-Concatenated string is ''
+-Type the 1st string (q - to quit):
+-Word
+-Type the 2nd string:
+-Microsoft
+-Concatenated string is 'WordMicrosoft'
+-Type the 1st string (q - to quit):
+-ENTER the string
+-    Hello
+-Type the 2nd string:
+-Concatenated string is 'ENTER the string
+-                           Hello'
+-Type the 1st string (q - to quit):
++*** Start of Comparing Strings Demo ***
++Type the 1st string to compare (q - to quit):
++The Final Project
++Type the 2nd string to compare:
++The Walking Dead
++'The Final Project' string is less than 'The Walking Dead'
++Type the 1st string to compare (q - to quit):
++Happy Holidays
++Type the 2nd string to compare:
++Happy Hodilays
++'Happy Hodilays' string is greater than 'Happy Holidays'
++Type the 1st string to compare (q - to quit):
++merry christmas
++Type the 2nd string to compare:
++merry christmas
++'merry christmas' string is equal to 'merry christmas'
++Type the 1st string to compare (q - to quit):
++q
++*** End of Comparing Strings Demo ***
+
+commit 6c2277fb4cc2d900a400e4d2f0170d46f61197f8
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 22:20:19 2023 -0500
+
+    manipulating_v2
+
+diff --git a/manipulating.c b/manipulating.c
+index a1cb277..6aa7d7d 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -56,23 +56,47 @@ void manipulating(void)
+ 
+ 
+ /* Version 2 */
++
++ /* It allows users to input stringsand compares them using the strcmp function in a loop.
++ The loop continues until the user inputs 'q' to quit. 
++The comparison results (less than, equal, or greater than) are displayed for each pair of strings. */
++
++
++
+ void manipulating(void)
+ {
++
+     printf("*** Start of Comparing Strings Demo ***\n");
++
++    // Declare two character arrays to store input strings.
+     char compare1[BUFFER_SIZE];
+     char compare2[BUFFER_SIZE];
++
++    // Declare an integer variable to store the result of string comparison.
+     int result;
++
++    // Start a do-while loop for user interaction.
+     do
+     {
++        // Prompt the user to input the first string for comparison.
+         printf("Type the 1st string to compare (q - to quit):\n");
++
++        // Use fgets to read the input string and remove the newline character.
+         fgets(compare1, BUFFER_SIZE, stdin);
+         compare1[strlen(compare1) - 1] = '\0';
++
++        // Check if the user wants to quit (entered 'q').
+         if (strcmp(compare1, "q") != 0)
+         {
++            // Prompt the user to input the second string for comparison.
+             printf("Type the 2nd string to compare:\n");
+             fgets(compare2, BUFFER_SIZE, stdin);
+             compare2[strlen(compare2) - 1] = '\0';
++
++            // Use strcmp to compare the two strings and store the result.
+             result = strcmp(compare1, compare2);
++
++            // Display the result of the comparison.
+             if (result < 0)
+             {
+                 printf("\'%s' string is less than \'%s' \n", compare1, compare2);
+@@ -83,17 +107,16 @@ void manipulating(void)
+             }
+             else
+             {
+-                printf("\'%s' string is greater than \'%s' \n", compare1, compare2);
++                printf("\'%s' string is greater than \'%s' \n", compare2, compare1);
+             }
+-
+         }
+ 
+-    } while (strcmp(compare1, "q") != 0);
+-
+-    {
+-        printf("*** End of Comparing Strings Demo *** \n\n");
+-
+-    }
++    } 
++    while (strcmp(compare1, "q") != 0);  // Continue the loop until the user enters 'q'.
++{
++    // Display an end message for the comparing strings demo.
++    printf("*** End of Comparing Strings Demo *** \n\n");
++}
+ }
+ 
+ 
+
+commit e799bf45e9329b852f9392842461157ef0a2dbdc
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 18:39:50 2023 -0500
+
+    manipulating_v2(fixed)
+
+diff --git a/manipulating.c b/manipulating.c
+index 4e28d79..a1cb277 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -50,7 +50,7 @@ void manipulating(void)
+ 
+     // Display an end message
+     printf("*** End of Concatenating Strings Demo ***\n\n");
+-}
++}/*
+ 
+ 
+ 
+
+commit 5bfd6de5bb1a02304712b830f77d185dd7f14f2c
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 18:38:39 2023 -0500
+
+    manipulating_v2(fixed)
+
+diff --git a/manipulating.c b/manipulating.c
+index 8aadbe0..4e28d79 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -10,7 +10,7 @@
+ 
+ 
+ /* Version 1 */
+-
++/*
+ void manipulating(void)
+ {
+     // Display a start message
+
+commit d550959ace03754cafdcb3fae26dacd24a4f18c9
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 15:49:20 2023 -0500
+
+    manipulating_v2
+
+diff --git a/manipulating.c b/manipulating.c
+index 8710594..8aadbe0 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -7,7 +7,7 @@
+ #define _CRT_SECURE_NO_WARNINGS
+ #define BUFFER_SIZE 80
+ #include "manipulating.h"
+-asdasdsad
++
+ 
+ /* Version 1 */
+ 
+
+commit b74b36ef7b1dc3a6bb9c6312744c53fd3239aefd
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 15:39:34 2023 -0500
+
+    test
+
+diff --git a/manipulating.c b/manipulating.c
+index a632c94..8710594 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -7,10 +7,10 @@
+ #define _CRT_SECURE_NO_WARNINGS
+ #define BUFFER_SIZE 80
+ #include "manipulating.h"
+-
++asdasdsad
+ 
+ /* Version 1 */
+-/*
++
+ void manipulating(void)
+ {
+     // Display a start message
+@@ -50,7 +50,7 @@ void manipulating(void)
+ 
+     // Display an end message
+     printf("*** End of Concatenating Strings Demo ***\n\n");
+-}*/
++}
+ 
+ 
+ 
+
+commit 583a00a5f8f62ef4e4df2d1056b7cc4d04048db0
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 15:16:06 2023 -0500
+
+    manipulating_v2
+
+diff --git a/manipulating.c b/manipulating.c
+index cad3220..a632c94 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -8,7 +8,7 @@
+ #define BUFFER_SIZE 80
+ #include "manipulating.h"
+ 
+-//absss
++
+ /* Version 1 */
+ /*
+ void manipulating(void)
+
+commit 2b4e05b4b8356cde71a8f0d91dfbd59acfbb8fcc
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 15:13:42 2023 -0500
+
+    abc
+
+diff --git a/manipulating.c b/manipulating.c
+index a632c94..cad3220 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -8,7 +8,7 @@
+ #define BUFFER_SIZE 80
+ #include "manipulating.h"
+ 
+-
++//absss
+ /* Version 1 */
+ /*
+ void manipulating(void)
+
+commit ae8954129e50f94acc551626e65aee5205167811
+Author: JONATHAN LADERA <jonathanladera11@gmail.com>
+Date:   Tue Dec 5 14:50:53 2023 -0500
+
+    manipulating.c_ v2
+
+diff --git a/manipulating.c b/manipulating.c
+index 932978e..a632c94 100644
+--- a/manipulating.c
++++ b/manipulating.c
+@@ -8,7 +8,9 @@
+ #define BUFFER_SIZE 80
+ #include "manipulating.h"
+ 
++
+ /* Version 1 */
++/*
+ void manipulating(void)
+ {
+     // Display a start message
+@@ -48,16 +50,54 @@ void manipulating(void)
+ 
+     // Display an end message
+     printf("*** End of Concatenating Strings Demo ***\n\n");
+-}
++}*/
+ 
+ 
+ 
+ 
+-		/* Version 2 */
++/* Version 2 */
++void manipulating(void)
++{
++    printf("*** Start of Comparing Strings Demo ***\n");
++    char compare1[BUFFER_SIZE];
++    char compare2[BUFFER_SIZE];
++    int result;
++    do
++    {
++        printf("Type the 1st string to compare (q - to quit):\n");
++        fgets(compare1, BUFFER_SIZE, stdin);
++        compare1[strlen(compare1) - 1] = '\0';
++        if (strcmp(compare1, "q") != 0)
++        {
++            printf("Type the 2nd string to compare:\n");
++            fgets(compare2, BUFFER_SIZE, stdin);
++            compare2[strlen(compare2) - 1] = '\0';
++            result = strcmp(compare1, compare2);
++            if (result < 0)
++            {
++                printf("\'%s' string is less than \'%s' \n", compare1, compare2);
++            }
++            else if (result == 0)
++            {
++                printf("\'%s' string is equal to \'%s' \n", compare1, compare2);
++            }
++            else
++            {
++                printf("\'%s' string is greater than \'%s' \n", compare1, compare2);
++            }
++
++        }
++
++    } while (strcmp(compare1, "q") != 0);
++
++    {
++        printf("*** End of Comparing Strings Demo *** \n\n");
++
++    }
++}
+ 
+ 
++/* Version 3 */
+ 
+-		/* Version 3 */
+-	
+ 
+ 
+
+commit 11c97419d566c368df69e7d176f5a0faca5774cd
+Author: Loc Dang <ldang15@myseneca.ca>
+Date:   Thu Nov 30 21:57:35 2023 -0500
+
+    overwritting all git-log files
+
+diff --git a/manipulating-git-log.txt b/manipulating-git-log.txt
+index 18e2dd2..f14835e 100644
+--- a/manipulating-git-log.txt
++++ b/manipulating-git-log.txt
+@@ -1,27 +1,94 @@
+-Which module to run?
+-
+-1 - Fundamentals
+-2 - Manipulation
+-3 - Converting
+-4 - Tokenizing
+-0 - Exit
+-Which module to run?
+-2
+-*** Start of Concatenating Strings Demo ***
+-Type the 1st string (q - to quit):
+-
+-Type the 2nd string:
+-
+-Concatenated string is ''
+-Type the 1st string (q - to quit):
+-Word
+-Type the 2nd string:
+-Microsoft
+-Concatenated string is 'WordMicrosoft'
+-Type the 1st string (q - to quit):
+-ENTER the string
+-    Hello
+-Type the 2nd string:
+-Concatenated string is 'ENTER the string
+-                           Hello'
+-Type the 1st string (q - to quit):
++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:57 2023 -0500
++
++    Add files via upload
++
++commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:14 2023 -0500
++
++    Delete .vs directory
++
++commit 7f2c689bc852911f778e67838eb34a599de1c3f0
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:01 2023 -0500
++
++    Delete converting directory
++
++commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:52 2023 -0500
++
++    Delete fundamental - Bahareh directory
++
++commit b5c25d1188807fd9fc3c0731168027a28b89d06c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:41 2023 -0500
++
++    Delete main directory
++
++commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:31 2023 -0500
++
++    Delete manipulating directory
++
++commit 68d9e3081d180945dad389d4e0088bb09caccdba
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:21 2023 -0500
++
++    Delete source_code_photos directory
++
++commit b5d7b24eb731437832793513ee20d6f17323cc6f
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:10 2023 -0500
++
++    Delete to_submit directory
++
++commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:04:49 2023 -0500
++
++    Delete Tokenization directory
++
++commit ab0d331de76203669f0b167c8e0c1c0e8f622215
++Merge: 676e75f 18e08f7
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 19:12:59 2023 -0500
++
++    Merge branch 'main' of github.com:locqdang/cpr_final_project
++    pulling after there is some change in the remote repo
++
++commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:06:37 2023 -0500
++
++    test push
++
++commit 18e08f7220fb515dc26e68f973c2d8361b69c823
++Merge: 8a65d16 777a73d
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:00:37 2023 -0500
++
++    Merge pull request #1 from quacktothetenth/main
++    
++    Update main.c
++
++commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
++Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
++Date:   Thu Nov 30 18:58:36 2023 -0500
++
++    Update main.c
++
++commit 8a65d166804c002f745498cd8897aa885ab15635
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 15:10:40 2023 -0500
++
++    first commit
++
++commit 12a5298b18505b5608d7cee822c2440b60b54036
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 14:42:29 2023 -0500
++
++    version 1.0.0: git created
+
 commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
 Author: Locqdang <74763262+locqdang@users.noreply.github.com>
 Date:   Thu Nov 30 21:06:57 2023 -0500
 
     Add files via upload
 
-commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:06:14 2023 -0500
-
-    Delete .vs directory
-
-commit 7f2c689bc852911f778e67838eb34a599de1c3f0
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:06:01 2023 -0500
-
-    Delete converting directory
-
-commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:52 2023 -0500
-
-    Delete fundamental - Bahareh directory
-
-commit b5c25d1188807fd9fc3c0731168027a28b89d06c
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:41 2023 -0500
-
-    Delete main directory
-
-commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:31 2023 -0500
-
-    Delete manipulating directory
-
-commit 68d9e3081d180945dad389d4e0088bb09caccdba
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:21 2023 -0500
-
-    Delete source_code_photos directory
-
-commit b5d7b24eb731437832793513ee20d6f17323cc6f
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:10 2023 -0500
-
-    Delete to_submit directory
-
-commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:04:49 2023 -0500
-
-    Delete Tokenization directory
-
-commit ab0d331de76203669f0b167c8e0c1c0e8f622215
-Merge: 676e75f 18e08f7
-Author: Lockie <quacktothetenth@duck.com>
-Date:   Thu Nov 30 19:12:59 2023 -0500
-
-    Merge branch 'main' of github.com:locqdang/cpr_final_project
-    pulling after there is some change in the remote repo
-
-commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 19:06:37 2023 -0500
-
-    test push
-
-commit 18e08f7220fb515dc26e68f973c2d8361b69c823
-Merge: 8a65d16 777a73d
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 19:00:37 2023 -0500
-
-    Merge pull request #1 from quacktothetenth/main
-    
-    Update main.c
-
-commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
-Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
-Date:   Thu Nov 30 18:58:36 2023 -0500
-
-    Update main.c
-
-commit 8a65d166804c002f745498cd8897aa885ab15635
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 15:10:40 2023 -0500
-
-    first commit
-
-commit 12a5298b18505b5608d7cee822c2440b60b54036
-Author: Lockie <quacktothetenth@duck.com>
-Date:   Thu Nov 30 14:42:29 2023 -0500
-
-    version 1.0.0: git created
+diff --git a/manipulating-git-log.txt b/manipulating-git-log.txt
+new file mode 100644
+index 0000000..18e2dd2
+--- /dev/null
++++ b/manipulating-git-log.txt
+@@ -0,0 +1,27 @@
++Which module to run?
++
++1 - Fundamentals
++2 - Manipulation
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++*** Start of Concatenating Strings Demo ***
++Type the 1st string (q - to quit):
++
++Type the 2nd string:
++
++Concatenated string is ''
++Type the 1st string (q - to quit):
++Word
++Type the 2nd string:
++Microsoft
++Concatenated string is 'WordMicrosoft'
++Type the 1st string (q - to quit):
++ENTER the string
++    Hello
++Type the 2nd string:
++Concatenated string is 'ENTER the string
++                           Hello'
++Type the 1st string (q - to quit):
+diff --git a/manipulating-test-cases.xlsx b/manipulating-test-cases.xlsx
+new file mode 100644
+index 0000000..f74beca
+Binary files /dev/null and b/manipulating-test-cases.xlsx differ
+diff --git a/manipulating-testing.txt b/manipulating-testing.txt
+new file mode 100644
+index 0000000..18e2dd2
+--- /dev/null
++++ b/manipulating-testing.txt
+@@ -0,0 +1,27 @@
++Which module to run?
++
++1 - Fundamentals
++2 - Manipulation
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++2
++*** Start of Concatenating Strings Demo ***
++Type the 1st string (q - to quit):
++
++Type the 2nd string:
++
++Concatenated string is ''
++Type the 1st string (q - to quit):
++Word
++Type the 2nd string:
++Microsoft
++Concatenated string is 'WordMicrosoft'
++Type the 1st string (q - to quit):
++ENTER the string
++    Hello
++Type the 2nd string:
++Concatenated string is 'ENTER the string
++                           Hello'
++Type the 1st string (q - to quit):
+diff --git a/manipulating.c b/manipulating.c
+new file mode 100644
+index 0000000..932978e
+--- /dev/null
++++ b/manipulating.c
+@@ -0,0 +1,63 @@
++/*
++  Simple string concatenation program.
++  Takes user input for two strings, concatenates them,
++  and prints the result until the user enters 'q' to quit.
++*/
++
++#define _CRT_SECURE_NO_WARNINGS
++#define BUFFER_SIZE 80
++#include "manipulating.h"
++
++/* Version 1 */
++void manipulating(void)
++{
++    // Display a start message
++    printf("*** Start of Concatenating Strings Demo ***\n");
++
++    // Declare two character arrays to store strings
++    char string1[BUFFER_SIZE];
++    char string2[BUFFER_SIZE];
++
++    // Repeat the concatenation process until the user enters 'q'
++    do
++    {
++        // Get user input for the first string
++        printf("Type the 1st string (q - to quit):\n");
++        fgets(string1, BUFFER_SIZE, stdin);
++
++        // Remove the newline character from the input
++        string1[strlen(string1) - 1] = '\0';
++
++        // Check if the user wants to quit
++        if ((strcmp(string1, "q") != 0))
++        {
++            // Get user input for the second string
++            printf("Type the 2nd string:\n");
++            fgets(string2, BUFFER_SIZE, stdin);
++
++            // Remove the newline character from the input
++            string2[strlen(string2) - 1] = '\0';
++
++            // Concatenate the two strings
++            strcat(string1, string2);
++
++            // Display the concatenated string
++            printf("Concatenated string is '%s'\n", string1);
++        }
++    } while (strcmp(string1, "q") != 0);
++
++    // Display an end message
++    printf("*** End of Concatenating Strings Demo ***\n\n");
++}
++
++
++
++
++		/* Version 2 */
++
++
++
++		/* Version 3 */
++	
++
++
+diff --git a/manipulating.h b/manipulating.h
+new file mode 100644
+index 0000000..4bbd451
+--- /dev/null
++++ b/manipulating.h
+@@ -0,0 +1,18 @@
++
++/*
++  Header guard to prevent multiple inclusion of the same header file.
++  If _MANIPULATING_H_ is not defined, the content of the file is processed;
++  otherwise, it's skipped to avoid redefinition errors.
++*/
++#ifndef _MANIPULATING_H_
++#define _MANIPULATING_H_
++
++// Include necessary standard C libraries
++#include <stdio.h>
++#include <string.h>
++
++// Declaration of the manipulating function
++void manipulating(void);
++
++// End of the header guard conditional compilation
++#endif
+\ No newline at end of file

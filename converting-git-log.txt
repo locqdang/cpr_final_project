@@ -1,94 +1,668 @@
+commit 8fe595bb2eaf954c0cdac1d57628bf174b304e04
+Author: DongNgo <dngo13@myseneca.ca>
+Date:   Thu Dec 7 15:07:07 2023 -0500
+
+    converting-testing.txt is done
+
+diff --git a/converting-git-log.txt b/converting-git-log.txt
+index f14835e..7d07298 100644
+--- a/converting-git-log.txt
++++ b/converting-git-log.txt
+@@ -1,94 +1,94 @@
+-commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:57 2023 -0500
+-
+-    Add files via upload
+-
+-commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:14 2023 -0500
+-
+-    Delete .vs directory
+-
+-commit 7f2c689bc852911f778e67838eb34a599de1c3f0
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:01 2023 -0500
+-
+-    Delete converting directory
+-
+-commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:52 2023 -0500
+-
+-    Delete fundamental - Bahareh directory
+-
+-commit b5c25d1188807fd9fc3c0731168027a28b89d06c
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:41 2023 -0500
+-
+-    Delete main directory
+-
+-commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:31 2023 -0500
+-
+-    Delete manipulating directory
+-
+-commit 68d9e3081d180945dad389d4e0088bb09caccdba
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:21 2023 -0500
+-
+-    Delete source_code_photos directory
+-
+-commit b5d7b24eb731437832793513ee20d6f17323cc6f
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:10 2023 -0500
+-
+-    Delete to_submit directory
+-
+-commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:04:49 2023 -0500
+-
+-    Delete Tokenization directory
+-
+-commit ab0d331de76203669f0b167c8e0c1c0e8f622215
+-Merge: 676e75f 18e08f7
+-Author: Lockie <quacktothetenth@duck.com>
+-Date:   Thu Nov 30 19:12:59 2023 -0500
+-
+-    Merge branch 'main' of github.com:locqdang/cpr_final_project
+-    pulling after there is some change in the remote repo
+-
+-commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 19:06:37 2023 -0500
+-
+-    test push
+-
+-commit 18e08f7220fb515dc26e68f973c2d8361b69c823
+-Merge: 8a65d16 777a73d
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 19:00:37 2023 -0500
+-
+-    Merge pull request #1 from quacktothetenth/main
+-    
+-    Update main.c
+-
+-commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
+-Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
+-Date:   Thu Nov 30 18:58:36 2023 -0500
+-
+-    Update main.c
+-
+-commit 8a65d166804c002f745498cd8897aa885ab15635
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 15:10:40 2023 -0500
+-
+-    first commit
+-
+-commit 12a5298b18505b5608d7cee822c2440b60b54036
+-Author: Lockie <quacktothetenth@duck.com>
+-Date:   Thu Nov 30 14:42:29 2023 -0500
+-
+-    version 1.0.0: git created
++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:57 2023 -0500
++
++    Add files via upload
++
++commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:14 2023 -0500
++
++    Delete .vs directory
++
++commit 7f2c689bc852911f778e67838eb34a599de1c3f0
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:01 2023 -0500
++
++    Delete converting directory
++
++commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:52 2023 -0500
++
++    Delete fundamental - Bahareh directory
++
++commit b5c25d1188807fd9fc3c0731168027a28b89d06c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:41 2023 -0500
++
++    Delete main directory
++
++commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:31 2023 -0500
++
++    Delete manipulating directory
++
++commit 68d9e3081d180945dad389d4e0088bb09caccdba
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:21 2023 -0500
++
++    Delete source_code_photos directory
++
++commit b5d7b24eb731437832793513ee20d6f17323cc6f
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:10 2023 -0500
++
++    Delete to_submit directory
++
++commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:04:49 2023 -0500
++
++    Delete Tokenization directory
++
++commit ab0d331de76203669f0b167c8e0c1c0e8f622215
++Merge: 676e75f 18e08f7
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 19:12:59 2023 -0500
++
++    Merge branch 'main' of github.com:locqdang/cpr_final_project
++    pulling after there is some change in the remote repo
++
++commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:06:37 2023 -0500
++
++    test push
++
++commit 18e08f7220fb515dc26e68f973c2d8361b69c823
++Merge: 8a65d16 777a73d
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:00:37 2023 -0500
++
++    Merge pull request #1 from quacktothetenth/main
++    
++    Update main.c
++
++commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
++Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
++Date:   Thu Nov 30 18:58:36 2023 -0500
++
++    Update main.c
++
++commit 8a65d166804c002f745498cd8897aa885ab15635
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 15:10:40 2023 -0500
++
++    first commit
++
++commit 12a5298b18505b5608d7cee822c2440b60b54036
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 14:42:29 2023 -0500
++
++    version 1.0.0: git created
+diff --git a/converting-testing.txt b/converting-testing.txt
+index 0af346d..9375472 100644
+--- a/converting-testing.txt
++++ b/converting-testing.txt
+@@ -1,3 +1,6 @@
++dong123@Dong:/mnt/c/Cpr$ converting.out
++converting.out: command not found
++dong123@Dong:/mnt/c/Cpr$ ./converting.out
+ 1 - Fundamentals
+ 2 - Manipulation
+ 3 - Converting
+@@ -10,16 +13,19 @@ Type an int numeric string (q - to quit) :
+ 0
+ Converted number is 0
+ Type an int numeric string (q - to quit) :
+-
++\n
+ Converted number is 0
+ Type an int numeric string (q - to quit) :
+ 123
+ Converted number is 123
+ Type an int numeric string (q - to quit) :
+-12345678901234567812345678912345678123456781234567812345678123456781234567812345678123456678123456789123456781234567812345
+-Converted number is 2147483647
++1232837128378217382713817239123812931278374831787182739128371232183782173821738237
++Converted number is -1
+ Type an int numeric string (q - to quit) :
+-Converted number is 2147483647
++Converted number is 237
++Type an int numeric string (q - to quit) :
++
++Converted number is 0
+ Type an int numeric string (q - to quit) :
+ 
+ Converted number is 0
+@@ -27,9 +33,8 @@ Type an int numeric string (q - to quit) :
+ abc
+ Converted number is 0
+ Type an int numeric string (q - to quit) :
+-123  90000 878782 09
+-kdfkadsfjkdsfjksadf
++123      90000 89 8923
++    239128391
+ Converted number is 123
+ Type an int numeric string (q - to quit) :
+-Converted number is 0
+-Type an int numeric string (q - to quit) :
+\ No newline at end of file
++Converted number is 239128391
+\ No newline at end of file
+
+commit c742d7ad691d87796aadb96e26d526de8c6aecfa
+Author: Loc Dang <ldang15@myseneca.ca>
+Date:   Mon Dec 4 20:45:45 2023 -0500
+
+    uncomment version 1
+
+diff --git a/converting.c b/converting.c
+index 5244ec9..d42d2c2 100644
+--- a/converting.c
++++ b/converting.c
+@@ -3,14 +3,16 @@
+ #include "converting.h"		//include function prototype(s)
+ 
+ 
+-/*String-to-interger conversion module.
+-Receives a double numeric string from user,
+-then converts it to the equivalent double number and output the number
+-The program quits when user enters "q" as the double numeric string*/
++/*String-to-interger conversion module.*/
+ 
++
++
++/*Receives a numeric string from user,
++then converts it to the equivalent  number and output the number
++The program quits when user enters "q" as the numeric string */
+ void converting() {
+ /* Version 1 */
+-/*	printf("*** Start of Converting Strings to int Demo ***\n");
++	printf("*** Start of Converting Strings to int Demo ***\n");
+ 	char	intString[BUFFER_SIZE];
+ 	int		intNumber;
+ 
+@@ -24,9 +26,12 @@ void converting() {
+ 			printf("Converted number is %d\n", intNumber);
+ 		}
+ 	} while (strcmp(intString, "q") != 0);
+-	printf("*** End of Converting Strings to iint Demo ***\n\n");*/
++	printf("*** End of Converting Strings to iint Demo ***\n\n");
+ 
+ 
++/*Receives a double numeric string from user,
++then converts it to the equivalent number and output the number
++The program quits when user enters "q" as the double numeric string */
+ /* Version 2 */
+ // >> insert here
+ 	printf("*** Start of Converting Strings to int Demo ***\n");
+diff --git a/converting.out b/converting.out
+index 9a31117..cc247fd 100644
+Binary files a/converting.out and b/converting.out differ
+
+commit d27d45c06e9d6f58ea24b64d1461f5cba1a80540
+Author: Loc Dang <ldang15@myseneca.ca>
+Date:   Mon Dec 4 18:45:01 2023 -0500
+
+    converting done, finished module testing
+
+diff --git a/converting-test-cases.xlsx b/converting-test-cases.xlsx
+index f74beca..52aaf0c 100644
+Binary files a/converting-test-cases.xlsx and b/converting-test-cases.xlsx differ
+
+commit 9433abc8d852101f5951c5955c95ab85962c964f
+Author: Loc Dang <ldang15@myseneca.ca>
+Date:   Mon Dec 4 15:05:15 2023 -0500
+
+    converting version 2 is done
+
+diff --git a/converting.c b/converting.c
+index 84d6de3..5244ec9 100644
+--- a/converting.c
++++ b/converting.c
+@@ -4,13 +4,13 @@
+ 
+ 
+ /*String-to-interger conversion module.
+-Receives a numeric string from user,
+-then converts it to the equivalent interger and output the interger
+-The program quits when user enters "q" as the numeric string*/
++Receives a double numeric string from user,
++then converts it to the equivalent double number and output the number
++The program quits when user enters "q" as the double numeric string*/
+ 
+ void converting() {
+ /* Version 1 */
+-	printf("*** Start of Converting Strings to int Demo ***\n");
++/*	printf("*** Start of Converting Strings to int Demo ***\n");
+ 	char	intString[BUFFER_SIZE];
+ 	int		intNumber;
+ 
+@@ -24,11 +24,26 @@ void converting() {
+ 			printf("Converted number is %d\n", intNumber);
+ 		}
+ 	} while (strcmp(intString, "q") != 0);
+-	printf("*** End of Converting Strings to iint Demo ***\n\n");
++	printf("*** End of Converting Strings to iint Demo ***\n\n");*/
+ 
+ 
+ /* Version 2 */
+ // >> insert here
++	printf("*** Start of Converting Strings to int Demo ***\n");
++	char	doubleString[BUFFER_SIZE];
++	double		doubleNumber;
++
++	//loop until the input is equal to "q"
++	do {
++		printf("Type the double numeric string (q - to quit) :\n");
++		fgets(doubleString, BUFFER_SIZE, stdin);
++		doubleString[strlen(doubleString) - 1] = '\0';		//making sure the string ends with NUL, as fgets does not put the NUL at the end if the buffer is overflowed.
++		if (strcmp(doubleString, "q") != 0) {
++			doubleNumber = atof(doubleString);			//doubleNumber is the result to be output
++			printf("Converted number is %f\n", doubleNumber);
++		}
++	} while (strcmp(doubleString, "q") != 0);
++	printf("*** End of Converting Strings to double Demo ***\n\n");
+ 
+ 
+ /* Version 3 */
+diff --git a/converting.out b/converting.out
+new file mode 100644
+index 0000000..9a31117
+Binary files /dev/null and b/converting.out differ
+
+commit f7738ae801f90a2b4ee2f1a96a3726356cd5348c
+Author: Loc Dang <ldang15@myseneca.ca>
+Date:   Thu Nov 30 21:52:26 2023 -0500
+
+    update coverting-git-log.txt
+
+diff --git a/converting-git-log.txt b/converting-git-log.txt
+index 0af346d..f14835e 100644
+--- a/converting-git-log.txt
++++ b/converting-git-log.txt
+@@ -1,35 +1,94 @@
+-1 - Fundamentals
+-2 - Manipulation
+-3 - Converting
+-4 - Tokenizing
+-0 - Exit
+-Which module to run?
+-3
+-*** Start of Converting Strings to int Demo ***
+-Type an int numeric string (q - to quit) :
+-0
+-Converted number is 0
+-Type an int numeric string (q - to quit) :
+-
+-Converted number is 0
+-Type an int numeric string (q - to quit) :
+-123
+-Converted number is 123
+-Type an int numeric string (q - to quit) :
+-12345678901234567812345678912345678123456781234567812345678123456781234567812345678123456678123456789123456781234567812345
+-Converted number is 2147483647
+-Type an int numeric string (q - to quit) :
+-Converted number is 2147483647
+-Type an int numeric string (q - to quit) :
+-
+-Converted number is 0
+-Type an int numeric string (q - to quit) :
+-abc
+-Converted number is 0
+-Type an int numeric string (q - to quit) :
+-123  90000 878782 09
+-kdfkadsfjkdsfjksadf
+-Converted number is 123
+-Type an int numeric string (q - to quit) :
+-Converted number is 0
+-Type an int numeric string (q - to quit) :
+\ No newline at end of file
++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:57 2023 -0500
++
++    Add files via upload
++
++commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:14 2023 -0500
++
++    Delete .vs directory
++
++commit 7f2c689bc852911f778e67838eb34a599de1c3f0
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:01 2023 -0500
++
++    Delete converting directory
++
++commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:52 2023 -0500
++
++    Delete fundamental - Bahareh directory
++
++commit b5c25d1188807fd9fc3c0731168027a28b89d06c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:41 2023 -0500
++
++    Delete main directory
++
++commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:31 2023 -0500
++
++    Delete manipulating directory
++
++commit 68d9e3081d180945dad389d4e0088bb09caccdba
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:21 2023 -0500
++
++    Delete source_code_photos directory
++
++commit b5d7b24eb731437832793513ee20d6f17323cc6f
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:10 2023 -0500
++
++    Delete to_submit directory
++
++commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:04:49 2023 -0500
++
++    Delete Tokenization directory
++
++commit ab0d331de76203669f0b167c8e0c1c0e8f622215
++Merge: 676e75f 18e08f7
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 19:12:59 2023 -0500
++
++    Merge branch 'main' of github.com:locqdang/cpr_final_project
++    pulling after there is some change in the remote repo
++
++commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:06:37 2023 -0500
++
++    test push
++
++commit 18e08f7220fb515dc26e68f973c2d8361b69c823
++Merge: 8a65d16 777a73d
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:00:37 2023 -0500
++
++    Merge pull request #1 from quacktothetenth/main
++    
++    Update main.c
++
++commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
++Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
++Date:   Thu Nov 30 18:58:36 2023 -0500
++
++    Update main.c
++
++commit 8a65d166804c002f745498cd8897aa885ab15635
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 15:10:40 2023 -0500
++
++    first commit
++
++commit 12a5298b18505b5608d7cee822c2440b60b54036
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 14:42:29 2023 -0500
++
++    version 1.0.0: git created
+
 commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
 Author: Locqdang <74763262+locqdang@users.noreply.github.com>
 Date:   Thu Nov 30 21:06:57 2023 -0500
 
     Add files via upload
 
-commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:06:14 2023 -0500
-
-    Delete .vs directory
-
-commit 7f2c689bc852911f778e67838eb34a599de1c3f0
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:06:01 2023 -0500
-
-    Delete converting directory
-
-commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:52 2023 -0500
-
-    Delete fundamental - Bahareh directory
-
-commit b5c25d1188807fd9fc3c0731168027a28b89d06c
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:41 2023 -0500
-
-    Delete main directory
-
-commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:31 2023 -0500
-
-    Delete manipulating directory
-
-commit 68d9e3081d180945dad389d4e0088bb09caccdba
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:21 2023 -0500
-
-    Delete source_code_photos directory
-
-commit b5d7b24eb731437832793513ee20d6f17323cc6f
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:10 2023 -0500
-
-    Delete to_submit directory
-
-commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:04:49 2023 -0500
-
-    Delete Tokenization directory
-
-commit ab0d331de76203669f0b167c8e0c1c0e8f622215
-Merge: 676e75f 18e08f7
-Author: Lockie <quacktothetenth@duck.com>
-Date:   Thu Nov 30 19:12:59 2023 -0500
-
-    Merge branch 'main' of github.com:locqdang/cpr_final_project
-    pulling after there is some change in the remote repo
-
-commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 19:06:37 2023 -0500
-
-    test push
-
-commit 18e08f7220fb515dc26e68f973c2d8361b69c823
-Merge: 8a65d16 777a73d
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 19:00:37 2023 -0500
-
-    Merge pull request #1 from quacktothetenth/main
-    
-    Update main.c
-
-commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
-Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
-Date:   Thu Nov 30 18:58:36 2023 -0500
-
-    Update main.c
-
-commit 8a65d166804c002f745498cd8897aa885ab15635
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 15:10:40 2023 -0500
-
-    first commit
-
-commit 12a5298b18505b5608d7cee822c2440b60b54036
-Author: Lockie <quacktothetenth@duck.com>
-Date:   Thu Nov 30 14:42:29 2023 -0500
-
-    version 1.0.0: git created
+diff --git a/converting-git-log.txt b/converting-git-log.txt
+new file mode 100644
+index 0000000..0af346d
+--- /dev/null
++++ b/converting-git-log.txt
+@@ -0,0 +1,35 @@
++1 - Fundamentals
++2 - Manipulation
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++3
++*** Start of Converting Strings to int Demo ***
++Type an int numeric string (q - to quit) :
++0
++Converted number is 0
++Type an int numeric string (q - to quit) :
++
++Converted number is 0
++Type an int numeric string (q - to quit) :
++123
++Converted number is 123
++Type an int numeric string (q - to quit) :
++12345678901234567812345678912345678123456781234567812345678123456781234567812345678123456678123456789123456781234567812345
++Converted number is 2147483647
++Type an int numeric string (q - to quit) :
++Converted number is 2147483647
++Type an int numeric string (q - to quit) :
++
++Converted number is 0
++Type an int numeric string (q - to quit) :
++abc
++Converted number is 0
++Type an int numeric string (q - to quit) :
++123  90000 878782 09
++kdfkadsfjkdsfjksadf
++Converted number is 123
++Type an int numeric string (q - to quit) :
++Converted number is 0
++Type an int numeric string (q - to quit) :
+\ No newline at end of file
+diff --git a/converting-test-cases.xlsx b/converting-test-cases.xlsx
+new file mode 100644
+index 0000000..f74beca
+Binary files /dev/null and b/converting-test-cases.xlsx differ
+diff --git a/converting-testing.txt b/converting-testing.txt
+new file mode 100644
+index 0000000..0af346d
+--- /dev/null
++++ b/converting-testing.txt
+@@ -0,0 +1,35 @@
++1 - Fundamentals
++2 - Manipulation
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++3
++*** Start of Converting Strings to int Demo ***
++Type an int numeric string (q - to quit) :
++0
++Converted number is 0
++Type an int numeric string (q - to quit) :
++
++Converted number is 0
++Type an int numeric string (q - to quit) :
++123
++Converted number is 123
++Type an int numeric string (q - to quit) :
++12345678901234567812345678912345678123456781234567812345678123456781234567812345678123456678123456789123456781234567812345
++Converted number is 2147483647
++Type an int numeric string (q - to quit) :
++Converted number is 2147483647
++Type an int numeric string (q - to quit) :
++
++Converted number is 0
++Type an int numeric string (q - to quit) :
++abc
++Converted number is 0
++Type an int numeric string (q - to quit) :
++123  90000 878782 09
++kdfkadsfjkdsfjksadf
++Converted number is 123
++Type an int numeric string (q - to quit) :
++Converted number is 0
++Type an int numeric string (q - to quit) :
+\ No newline at end of file
+diff --git a/converting.c b/converting.c
+new file mode 100644
+index 0000000..84d6de3
+--- /dev/null
++++ b/converting.c
+@@ -0,0 +1,38 @@
++#define _CRT_SECURE_NO_WANRINGS
++#define BUFFER_SIZE 80
++#include "converting.h"		//include function prototype(s)
++
++
++/*String-to-interger conversion module.
++Receives a numeric string from user,
++then converts it to the equivalent interger and output the interger
++The program quits when user enters "q" as the numeric string*/
++
++void converting() {
++/* Version 1 */
++	printf("*** Start of Converting Strings to int Demo ***\n");
++	char	intString[BUFFER_SIZE];
++	int		intNumber;
++
++	//loop until the input is equal to "q"
++	do {
++		printf("Type an int numeric string (q - to quit) :\n");
++		fgets(intString, BUFFER_SIZE, stdin);
++		intString[strlen(intString) - 1] = '\0';		//making sure the string ends with NUL, as fgets does not put the NUL at the end if the buffer is overflowed.
++		if (strcmp(intString, "q") != 0) {
++			intNumber = atoi(intString);			//intNumber is the result to be output
++			printf("Converted number is %d\n", intNumber);
++		}
++	} while (strcmp(intString, "q") != 0);
++	printf("*** End of Converting Strings to iint Demo ***\n\n");
++
++
++/* Version 2 */
++// >> insert here
++
++
++/* Version 3 */
++// >> insert here
++
++
++}
+diff --git a/converting.h b/converting.h
+new file mode 100644
+index 0000000..5b0fa2b
+--- /dev/null
++++ b/converting.h
+@@ -0,0 +1,10 @@
++#ifndef _CONVERTING_H_
++#define _CONVERTING_H_
++#include <stdio.h>
++#include <string.h>
++#include <stdlib.h>
++
++
++//prototype of the function to convert a numeric string to an interger
++void converting(void);
++#endif
+\ No newline at end of file

@@ -1,3 +1,5 @@
+
+dong123@Dong:/mnt/c/Cpr$ ./main.out
 1 - Fundamentals
 2 - Manipulation
 3 - Converting
@@ -28,3 +30,40 @@ Type the character position within the string:
 4
 The character found at 4 posiition is 't'
 Type not empty string (q - to quit):
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa
+Type the character position within the string:
+The character found at 0 posiition is 'f'
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** start of measuring strings Demo ***
+Type a string (q - to quit):
+q
+*** End of Measuring Strings Demo ***
+
+Which module to run?
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+1
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** start of measuring strings Demo ***
+Type a string (q - to quit):
+abc
+the length of 'abc' is 3 characters
+Type a string (q - to quit):
+the length of '' is 0 characters
+Type a string (q - to quit):
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffabcdefg
+the length of 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffab' is 78 characters
+Type a string (q - to quit):
+the length of 'defg' is 4 characters
+Type a string (q - to quit):

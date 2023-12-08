@@ -10,7 +10,7 @@
 
 
 // Version 1 
-/*
+
 void manipulating(void)
 {
     // Display a start message
@@ -50,21 +50,20 @@ void manipulating(void)
 
     // Display an end message
     printf("*** End of Concatenating Strings Demo ***\n\n");
-}*/
 
 
 
 
-// Version 2
 
- /* It allows users to input stringsand compares them using the strcmp function in a loop.
- The loop continues until the user inputs 'q' to quit. 
-The comparison results (less than, equal, or greater than) are displayed for each pair of strings. */
+    // Version 2
+
+     /* It allows users to input stringsand compares them using the strcmp function in a loop.
+     The loop continues until the user inputs 'q' to quit.
+    The comparison results (less than, equal, or greater than) are displayed for each pair of strings. */
 
 
 
-void manipulating(void)
-{
+
 
     printf("*** Start of Comparing Strings Demo ***\n");
 
@@ -111,13 +110,13 @@ void manipulating(void)
             }
         }
 
-    } 
-    while (strcmp(compare1, "q") != 0);  // Continue the loop until the user enters 'q'.
-{
+    } while (strcmp(compare1, "q") != 0);  // Continue the loop until the user enters 'q'.
+    
     // Display an end message for the comparing strings demo.
     printf("*** End of Comparing Strings Demo *** \n\n");
+    
 }
-}
+
 
 
 /* Version 3 */
