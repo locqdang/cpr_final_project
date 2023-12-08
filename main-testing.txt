@@ -1,19 +1,73 @@
+dong123@Dong:/mnt/c/Cpr$ ./main.out
 1 - Fundamentals
 2 - Manipulation
 3 - Converting
 4 - Tokenizing
 0 - Exit
 Which module to run?
-123
+1
 *** Start of Indexing Strings Demo ***
 Type not empty string (q - to quit):
-q0
+0
 Type the character position within the string:
-1
-The character found at 1 posiition is '0'
+0
+The character found at 0 posiition is '0'
+Type not empty string (q - to quit):
+abc
+Type the character position within the string:
+2
+The character found at 2 posiition is 'c'
+Type not empty string (q - to quit):
+abc
+Type the character position within the string:
+5
+Too big... position reduced to max.available
+The character found at 2 posiition is 'c'
+Type not empty string (q - to quit):
+input String
+Type the character position within the string:
+4
+The character found at 4 posiition is 't'
+Type not empty string (q - to quit):
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa
+Type the character position within the string:
+The character found at 0 posiition is 'f'
 Type not empty string (q - to quit):
 q
 *** End of Indexing Strings Demo ***
+
+*** start of measuring strings Demo ***
+Type a string (q - to quit):
+q
+*** End of Measuring Strings Demo ***
+
+Which module to run?
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+1
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+q
+*** End of Indexing Strings Demo ***
+
+*** start of measuring strings Demo ***
+Type a string (q - to quit):
+abc
+the length of 'abc' is 3 characters
+Type a string (q - to quit):
+the length of '' is 0 characters
+Type a string (q - to quit):
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffabcdefg
+the length of 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffab' is 78 characters
+Type a string (q - to quit):
+the length of 'defg' is 4 characters
+Type a string (q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
 
 1 - Fundamentals
 2 - Manipulation
@@ -21,21 +75,170 @@ q
 4 - Tokenizing
 0 - Exit
 Which module to run?
+2
+*** Start of Concatenating Strings Demo ***
+Type the 1st string (q - to quit):
+
+Type the 2nd string:
+
+Concatenated string is ''
+Type the 1st string (q - to quit):
+Word
+Type the 2nd string:
+Microsoft
+Concatenated string is 'WordMicrosoft'
+Type the 1st string (q - to quit):
+ENTER the string                                                                   Hello                                                                              World
+Type the 2nd string:
+Concatenated string is 'ENTER the string                                                                  Hello                                                                     '
+Type the 1st string (q - to quit):
+Type the 2nd string:
+
+Concatenated string is '        World'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+
+Type the 2nd string to compare:
+
+'' string is equal to ''
+Type the 1st string to compare (q - to quit):
+Word
+Type the 2nd string to compare:
+Microsoft
+'Microsoft' string is greater than 'Word'
+Type the 1st string to compare (q - to quit):
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffabcdefg
+Type the 2nd string to compare:
+'defg' string is greater than 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffab'
+Type the 1st string to compare (q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit) :
+290
+Converted number is 290
+Type an int numeric string (q - to quit) :
 abc
+Converted number is 0
+Type an int numeric string (q - to quit) :
+2222222222222222222222222222222222222222222222222222222222222222222222222222221
+Converted number is -1
+Type an int numeric string (q - to quit) :
+Converted number is 0
+Type an int numeric string (q - to quit) :
+222222222222222222222222222222222222222222222222222222222222222222222222222222
+Converted number is -1
+Type an int numeric string (q - to quit) :
+-1
+Converted number is -1
+Type an int numeric string (q - to quit) :
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffab
+Converted number is 0
+Type an int numeric string (q - to quit) :
+q
+*** End of Converting Strings to iint Demo ***
+
+*** Start of Converting Strings to int Demo ***
+Type the double numeric string (q - to quit) :
+10
+Converted number is 10.000000
+Type the double numeric string (q - to quit) :
+28.23
+Converted number is 28.230000
+Type the double numeric string (q - to quit) :
+-9
+Converted number is -9.000000
+Type the double numeric string (q - to quit) :
+1111111110
+Converted number is 1111111110.000000
+Type the double numeric string (q - to quit) :
+11111111110
+Converted number is 11111111110.000000
+Type the double numeric string (q - to quit) :
+111111111110
+Converted number is 111111111110.000000
+Type the double numeric string (q - to quit) :
+11111111111111111
+Converted number is 11111111111111112.000000
+Type the double numeric string (q - to quit) :
+q
+*** End of Tokenizing Phrases Demo ***
 1 - Fundamentals
 2 - Manipulation
 3 - Converting
 4 - Tokenizing
 0 - Exit
 Which module to run?
-a
-1 - Fundamentals
-2 - Manipulation
-3 - Converting
-4 - Tokenizing
-0 - Exit
-Which module to run?
-9
+4
+*** Start of Tokenizing Words Demo ***
+Type a few words separated by space (q - to quit):
+123
+word #1 is '123'
+Type a few words separated by space (q - to quit):
+Computer Principle
+word #1 is 'Computer'
+word #2 is 'Principle'
+Type a few words separated by space (q - to quit):
+Computer Data Science
+word #1 is 'Computer'
+word #2 is 'Data Science'
+Type a few words separated by space (q - to quit):
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffabcdefg
+word #1 is 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffabcdefg'
+Type a few words separated by space (q - to quit):
+a b c d e f g h
+word #1 is 'a'
+word #2 is 'b c d e f g h'
+Type a few words separated by space (q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma (q - to quit):
+Hello, my name is Lynne
+Phrase #1 is 'Hello'
+Phrase #2 is ' my name is Lynne'
+Type a few phrases separated by comma (q - to quit):
+Hello, my, name, is, Lily
+Phrase #1 is 'Hello'
+Phrase #2 is ' my'
+Phrase #3 is ' name'
+Phrase #4 is ' is'
+Phrase #5 is ' Lily'
+Type a few phrases separated by comma (q - to quit):
+Fishing is,                                         fun
+Phrase #1 is 'Fishing is'
+Phrase #2 is '                                         fun '
+Type a few phrases separated by comma (q - to quit):
+
+Type a few phrases separated by comma (q - to quit):
+
+Type a few phrases separated by comma (q - to quit):
+,
+Type a few phrases separated by comma (q - to quit):
+,,
+Type a few phrases separated by comma (q - to quit):
+,,,,,,,,,,
+Type a few phrases separated by comma (q - to quit):
+ ,
+Phrase #1 is ' '
+Phrase #2 is ' '
+Type a few phrases separated by comma (q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
+
 1 - Fundamentals
 2 - Manipulation
 3 - Converting

@@ -1,6 +1,3 @@
-dong123@Dong:/mnt/c/Cpr$ converting.out
-converting.out: command not found
-dong123@Dong:/mnt/c/Cpr$ ./converting.out
 1 - Fundamentals
 2 - Manipulation
 3 - Converting
@@ -10,31 +7,49 @@ Which module to run?
 3
 *** Start of Converting Strings to int Demo ***
 Type an int numeric string (q - to quit) :
-0
-Converted number is 0
-Type an int numeric string (q - to quit) :
-\n
-Converted number is 0
-Type an int numeric string (q - to quit) :
-123
-Converted number is 123
-Type an int numeric string (q - to quit) :
-1232837128378217382713817239123812931278374831787182739128371232183782173821738237
-Converted number is -1
-Type an int numeric string (q - to quit) :
-Converted number is 237
-Type an int numeric string (q - to quit) :
-
-Converted number is 0
-Type an int numeric string (q - to quit) :
-
-Converted number is 0
+290
+Converted number is 290
 Type an int numeric string (q - to quit) :
 abc
 Converted number is 0
 Type an int numeric string (q - to quit) :
-123      90000 89 8923
-    239128391
-Converted number is 123
+2222222222222222222222222222222222222222222222222222222222222222222222222222221
+Converted number is -1
 Type an int numeric string (q - to quit) :
-Converted number is 239128391
+Converted number is 0
+Type an int numeric string (q - to quit) :
+222222222222222222222222222222222222222222222222222222222222222222222222222222
+Converted number is -1
+Type an int numeric string (q - to quit) :
+-1
+Converted number is -1
+Type an int numeric string (q - to quit) :
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffab
+Converted number is 0
+Type an int numeric string (q - to quit) :
+q
+*** End of Converting Strings to iint Demo ***
+
+*** Start of Converting Strings to int Demo ***
+Type the double numeric string (q - to quit) :
+10
+Converted number is 10.000000
+Type the double numeric string (q - to quit) :
+28.23
+Converted number is 28.230000
+Type the double numeric string (q - to quit) :
+-9
+Converted number is -9.000000
+Type the double numeric string (q - to quit) :
+1111111110
+Converted number is 1111111110.000000
+Type the double numeric string (q - to quit) :
+11111111110
+Converted number is 11111111110.000000
+Type the double numeric string (q - to quit) :
+111111111110
+Converted number is 111111111110.000000
+Type the double numeric string (q - to quit) :
+11111111111111111
+Converted number is 11111111111111112.000000
+Type the double numeric string (q - to quit) :

@@ -1,94 +1,592 @@
+commit 8fe595bb2eaf954c0cdac1d57628bf174b304e04
+Author: DongNgo <dngo13@myseneca.ca>
+Date:   Thu Dec 7 15:07:07 2023 -0500
+
+    converting-testing.txt is done
+
+diff --git a/tokenizing-git-log.txt b/tokenizing-git-log.txt
+index f14835e..7d07298 100644
+--- a/tokenizing-git-log.txt
++++ b/tokenizing-git-log.txt
+@@ -1,94 +1,94 @@
+-commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:57 2023 -0500
+-
+-    Add files via upload
+-
+-commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:14 2023 -0500
+-
+-    Delete .vs directory
+-
+-commit 7f2c689bc852911f778e67838eb34a599de1c3f0
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:01 2023 -0500
+-
+-    Delete converting directory
+-
+-commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:52 2023 -0500
+-
+-    Delete fundamental - Bahareh directory
+-
+-commit b5c25d1188807fd9fc3c0731168027a28b89d06c
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:41 2023 -0500
+-
+-    Delete main directory
+-
+-commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:31 2023 -0500
+-
+-    Delete manipulating directory
+-
+-commit 68d9e3081d180945dad389d4e0088bb09caccdba
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:21 2023 -0500
+-
+-    Delete source_code_photos directory
+-
+-commit b5d7b24eb731437832793513ee20d6f17323cc6f
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:10 2023 -0500
+-
+-    Delete to_submit directory
+-
+-commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:04:49 2023 -0500
+-
+-    Delete Tokenization directory
+-
+-commit ab0d331de76203669f0b167c8e0c1c0e8f622215
+-Merge: 676e75f 18e08f7
+-Author: Lockie <quacktothetenth@duck.com>
+-Date:   Thu Nov 30 19:12:59 2023 -0500
+-
+-    Merge branch 'main' of github.com:locqdang/cpr_final_project
+-    pulling after there is some change in the remote repo
+-
+-commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 19:06:37 2023 -0500
+-
+-    test push
+-
+-commit 18e08f7220fb515dc26e68f973c2d8361b69c823
+-Merge: 8a65d16 777a73d
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 19:00:37 2023 -0500
+-
+-    Merge pull request #1 from quacktothetenth/main
+-    
+-    Update main.c
+-
+-commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
+-Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
+-Date:   Thu Nov 30 18:58:36 2023 -0500
+-
+-    Update main.c
+-
+-commit 8a65d166804c002f745498cd8897aa885ab15635
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 15:10:40 2023 -0500
+-
+-    first commit
+-
+-commit 12a5298b18505b5608d7cee822c2440b60b54036
+-Author: Lockie <quacktothetenth@duck.com>
+-Date:   Thu Nov 30 14:42:29 2023 -0500
+-
+-    version 1.0.0: git created
++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:57 2023 -0500
++
++    Add files via upload
++
++commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:14 2023 -0500
++
++    Delete .vs directory
++
++commit 7f2c689bc852911f778e67838eb34a599de1c3f0
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:01 2023 -0500
++
++    Delete converting directory
++
++commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:52 2023 -0500
++
++    Delete fundamental - Bahareh directory
++
++commit b5c25d1188807fd9fc3c0731168027a28b89d06c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:41 2023 -0500
++
++    Delete main directory
++
++commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:31 2023 -0500
++
++    Delete manipulating directory
++
++commit 68d9e3081d180945dad389d4e0088bb09caccdba
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:21 2023 -0500
++
++    Delete source_code_photos directory
++
++commit b5d7b24eb731437832793513ee20d6f17323cc6f
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:10 2023 -0500
++
++    Delete to_submit directory
++
++commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:04:49 2023 -0500
++
++    Delete Tokenization directory
++
++commit ab0d331de76203669f0b167c8e0c1c0e8f622215
++Merge: 676e75f 18e08f7
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 19:12:59 2023 -0500
++
++    Merge branch 'main' of github.com:locqdang/cpr_final_project
++    pulling after there is some change in the remote repo
++
++commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:06:37 2023 -0500
++
++    test push
++
++commit 18e08f7220fb515dc26e68f973c2d8361b69c823
++Merge: 8a65d16 777a73d
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:00:37 2023 -0500
++
++    Merge pull request #1 from quacktothetenth/main
++    
++    Update main.c
++
++commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
++Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
++Date:   Thu Nov 30 18:58:36 2023 -0500
++
++    Update main.c
++
++commit 8a65d166804c002f745498cd8897aa885ab15635
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 15:10:40 2023 -0500
++
++    first commit
++
++commit 12a5298b18505b5608d7cee822c2440b60b54036
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 14:42:29 2023 -0500
++
++    version 1.0.0: git created
+
+commit ebc4f94d4952bef68d6738cd2eb0b7f4d57b97a8
+Author: Elaine Camille Javier <ecjavier@myseneca.ca>
+Date:   Thu Dec 7 12:53:00 2023 -0500
+
+    tokenizing_v2
+
+diff --git a/tokenizing.c b/tokenizing.c
+index 37db3a6..5ddf842 100644
+--- a/tokenizing.c
++++ b/tokenizing.c
+@@ -55,7 +55,7 @@ void tokenizing(void)
+ 
+ 
+ /* Version 2 */
+-void tokenizing(void);
++void tokenizing(void)
+ {
+ 	printf("*** Start of Tokenizing Phrases Demo ***\n");
+ 	char	phrases[BUFFER_SIZE];
+
+commit 8b00e140603964c3ad5a02be6109bd1a6f27b89d
+Author: Elaine Camille Javier <ecjavier@myseneca.ca>
+Date:   Tue Dec 5 19:27:44 2023 -0500
+
+    tokenizing_v2(fixed)
+
+diff --git a/tokenizing.c b/tokenizing.c
+index 5b28bc6..37db3a6 100644
+--- a/tokenizing.c
++++ b/tokenizing.c
+@@ -73,6 +73,6 @@ void tokenizing(void);
+ 				nextPhrase = strtok(NULL, ",");
+ 			}
+ 		}
+-	} while (strcmp(phrases, 'q') != 0);
++	} while (strcmp(phrases, "q") != 0);
+ 	printf("*** End of Tokenizing Phrases Demo ***\n\n");
+ }
+\ No newline at end of file
+
+commit 411c4711949cbcd28c9c9980d60ff97cd2caf59c
+Author: Elaine Camille Javier <ecjavier@myseneca.ca>
+Date:   Tue Dec 5 17:48:43 2023 -0500
+
+    tokenizing_v2
+
+diff --git a/tokenizing.c b/tokenizing.c
+index 507a719..5b28bc6 100644
+--- a/tokenizing.c
++++ b/tokenizing.c
+@@ -10,9 +10,7 @@ each word with a corresponding index. */
+ #define _CRT_SECURE_NO_WARNINGS
+ #define BUFFER_SIZE 300
+ #include "tokenizing.h"
+-
+-		// VI
+-
++/*
+ void tokenizing(void)
+ {
+ 
+@@ -52,4 +50,29 @@ void tokenizing(void)
+ 	
+ 	while (strcmp(words, "q") != 0);
+ 	printf("*** End of Tokenizing Words Demo ***\n\n");
++}
++*/
++
++
++/* Version 2 */
++void tokenizing(void);
++{
++	printf("*** Start of Tokenizing Phrases Demo ***\n");
++	char	phrases[BUFFER_SIZE];
++	char* nextPhrase = NULL;
++	int		phrasesCounter;
++	do {
++		printf("Type a few phrases separated by comma (q - to quit):\n");
++		fgets(phrases, BUFFER_SIZE, stdin);
++		phrases[strlen(phrases) - 1] = '\0';
++		if ((strcmp(phrases, "q") != 0)) {
++			nextPhrase = strtok(phrases, ",");
++			phrasesCounter = 1;
++			while (nextPhrase) {
++				printf("Phrase #%d is \'%s\'\n", phrasesCounter++, nextPhrase);
++				nextPhrase = strtok(NULL, ",");
++			}
++		}
++	} while (strcmp(phrases, 'q') != 0);
++	printf("*** End of Tokenizing Phrases Demo ***\n\n");
+ }
+\ No newline at end of file
+
+commit 11c97419d566c368df69e7d176f5a0faca5774cd
+Author: Loc Dang <ldang15@myseneca.ca>
+Date:   Thu Nov 30 21:57:35 2023 -0500
+
+    overwritting all git-log files
+
+diff --git a/tokenizing-git-log.txt b/tokenizing-git-log.txt
+index f3d5f1f..f14835e 100644
+--- a/tokenizing-git-log.txt
++++ b/tokenizing-git-log.txt
+@@ -1,28 +1,94 @@
+-1 - Fundamentals
+-2 - Manipulation
+-3 - Converting
+-4 - Tokenizing
+-0 - Exit
+-Which module to run?
+-4
+-*** Start of Tokenizing Words Demo ***
+-Type a few words separated by space (q - to quit):
+-123
+-word #1 is '123'
+-Type a few words separated by space (q - to quit):
+-Computer Principle
+-word #1 is 'Computer'
+-word #2 is 'Principle'
+-Type a few words separated by space (q - to quit):
+-Computer Data Science
+-word #1 is 'Computer'
+-word #2 is 'Data Science'
+-Type a few words separated by space (q - to quit):
+-kdsjfksajdfksadjf                                                                                                         kasdjfka f           123124                                                                                            413423                   yay                                                                                            kdjfkdsj
+-word #1 is 'kdsjfksajdfksadjf'
+-word #2 is '                                                                                                        kasdjfka f           123124                                                                                            413423                   yay                             '
+-Type a few words separated by space (q - to quit):
+-word #1 is 'kdjfkdsj'
+-Type a few words separated by space (q - to quit):
+-
+-Type a few words separated by space (q - to quit):
+\ No newline at end of file
++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:57 2023 -0500
++
++    Add files via upload
++
++commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:14 2023 -0500
++
++    Delete .vs directory
++
++commit 7f2c689bc852911f778e67838eb34a599de1c3f0
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:01 2023 -0500
++
++    Delete converting directory
++
++commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:52 2023 -0500
++
++    Delete fundamental - Bahareh directory
++
++commit b5c25d1188807fd9fc3c0731168027a28b89d06c
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:41 2023 -0500
++
++    Delete main directory
++
++commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:31 2023 -0500
++
++    Delete manipulating directory
++
++commit 68d9e3081d180945dad389d4e0088bb09caccdba
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:21 2023 -0500
++
++    Delete source_code_photos directory
++
++commit b5d7b24eb731437832793513ee20d6f17323cc6f
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:05:10 2023 -0500
++
++    Delete to_submit directory
++
++commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:04:49 2023 -0500
++
++    Delete Tokenization directory
++
++commit ab0d331de76203669f0b167c8e0c1c0e8f622215
++Merge: 676e75f 18e08f7
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 19:12:59 2023 -0500
++
++    Merge branch 'main' of github.com:locqdang/cpr_final_project
++    pulling after there is some change in the remote repo
++
++commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:06:37 2023 -0500
++
++    test push
++
++commit 18e08f7220fb515dc26e68f973c2d8361b69c823
++Merge: 8a65d16 777a73d
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 19:00:37 2023 -0500
++
++    Merge pull request #1 from quacktothetenth/main
++    
++    Update main.c
++
++commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
++Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
++Date:   Thu Nov 30 18:58:36 2023 -0500
++
++    Update main.c
++
++commit 8a65d166804c002f745498cd8897aa885ab15635
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 15:10:40 2023 -0500
++
++    first commit
++
++commit 12a5298b18505b5608d7cee822c2440b60b54036
++Author: Lockie <quacktothetenth@duck.com>
++Date:   Thu Nov 30 14:42:29 2023 -0500
++
++    version 1.0.0: git created
+
 commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
 Author: Locqdang <74763262+locqdang@users.noreply.github.com>
 Date:   Thu Nov 30 21:06:57 2023 -0500
 
     Add files via upload
 
-commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:06:14 2023 -0500
-
-    Delete .vs directory
-
-commit 7f2c689bc852911f778e67838eb34a599de1c3f0
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:06:01 2023 -0500
-
-    Delete converting directory
-
-commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:52 2023 -0500
-
-    Delete fundamental - Bahareh directory
-
-commit b5c25d1188807fd9fc3c0731168027a28b89d06c
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:41 2023 -0500
-
-    Delete main directory
-
-commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:31 2023 -0500
-
-    Delete manipulating directory
-
-commit 68d9e3081d180945dad389d4e0088bb09caccdba
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:21 2023 -0500
-
-    Delete source_code_photos directory
-
-commit b5d7b24eb731437832793513ee20d6f17323cc6f
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:05:10 2023 -0500
-
-    Delete to_submit directory
-
-commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 21:04:49 2023 -0500
-
-    Delete Tokenization directory
-
-commit ab0d331de76203669f0b167c8e0c1c0e8f622215
-Merge: 676e75f 18e08f7
-Author: Lockie <quacktothetenth@duck.com>
-Date:   Thu Nov 30 19:12:59 2023 -0500
-
-    Merge branch 'main' of github.com:locqdang/cpr_final_project
-    pulling after there is some change in the remote repo
-
-commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 19:06:37 2023 -0500
-
-    test push
-
-commit 18e08f7220fb515dc26e68f973c2d8361b69c823
-Merge: 8a65d16 777a73d
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 19:00:37 2023 -0500
-
-    Merge pull request #1 from quacktothetenth/main
-    
-    Update main.c
-
-commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
-Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
-Date:   Thu Nov 30 18:58:36 2023 -0500
-
-    Update main.c
-
-commit 8a65d166804c002f745498cd8897aa885ab15635
-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
-Date:   Thu Nov 30 15:10:40 2023 -0500
-
-    first commit
-
-commit 12a5298b18505b5608d7cee822c2440b60b54036
-Author: Lockie <quacktothetenth@duck.com>
-Date:   Thu Nov 30 14:42:29 2023 -0500
-
-    version 1.0.0: git created
+diff --git a/tokenizing-git-log.txt b/tokenizing-git-log.txt
+new file mode 100644
+index 0000000..f3d5f1f
+--- /dev/null
++++ b/tokenizing-git-log.txt
+@@ -0,0 +1,28 @@
++1 - Fundamentals
++2 - Manipulation
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++4
++*** Start of Tokenizing Words Demo ***
++Type a few words separated by space (q - to quit):
++123
++word #1 is '123'
++Type a few words separated by space (q - to quit):
++Computer Principle
++word #1 is 'Computer'
++word #2 is 'Principle'
++Type a few words separated by space (q - to quit):
++Computer Data Science
++word #1 is 'Computer'
++word #2 is 'Data Science'
++Type a few words separated by space (q - to quit):
++kdsjfksajdfksadjf                                                                                                         kasdjfka f           123124                                                                                            413423                   yay                                                                                            kdjfkdsj
++word #1 is 'kdsjfksajdfksadjf'
++word #2 is '                                                                                                        kasdjfka f           123124                                                                                            413423                   yay                             '
++Type a few words separated by space (q - to quit):
++word #1 is 'kdjfkdsj'
++Type a few words separated by space (q - to quit):
++
++Type a few words separated by space (q - to quit):
+\ No newline at end of file
+diff --git a/tokenizing-tesing.txt b/tokenizing-tesing.txt
+new file mode 100644
+index 0000000..f3d5f1f
+--- /dev/null
++++ b/tokenizing-tesing.txt
+@@ -0,0 +1,28 @@
++1 - Fundamentals
++2 - Manipulation
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++4
++*** Start of Tokenizing Words Demo ***
++Type a few words separated by space (q - to quit):
++123
++word #1 is '123'
++Type a few words separated by space (q - to quit):
++Computer Principle
++word #1 is 'Computer'
++word #2 is 'Principle'
++Type a few words separated by space (q - to quit):
++Computer Data Science
++word #1 is 'Computer'
++word #2 is 'Data Science'
++Type a few words separated by space (q - to quit):
++kdsjfksajdfksadjf                                                                                                         kasdjfka f           123124                                                                                            413423                   yay                                                                                            kdjfkdsj
++word #1 is 'kdsjfksajdfksadjf'
++word #2 is '                                                                                                        kasdjfka f           123124                                                                                            413423                   yay                             '
++Type a few words separated by space (q - to quit):
++word #1 is 'kdjfkdsj'
++Type a few words separated by space (q - to quit):
++
++Type a few words separated by space (q - to quit):
+\ No newline at end of file
+diff --git a/tokenizing-test-cases.xlsx b/tokenizing-test-cases.xlsx
+new file mode 100644
+index 0000000..f74beca
+Binary files /dev/null and b/tokenizing-test-cases.xlsx differ
+diff --git a/tokenizing.c b/tokenizing.c
+new file mode 100644
+index 0000000..507a719
+--- /dev/null
++++ b/tokenizing.c
+@@ -0,0 +1,55 @@
++﻿/*The code aims to showcase a simple word tokenization demonstration.
++The code reads input words, separates them by spaces, and prints
++each word with a corresponding index. */
++
++
++
++	/* Version 1 */
++
++
++#define _CRT_SECURE_NO_WARNINGS
++#define BUFFER_SIZE 300
++#include "tokenizing.h"
++
++		// VI
++
++void tokenizing(void)
++{
++
++	printf("*** Start of Tokenizing Words Demo ***\n");
++
++	char words[BUFFER_SIZE];
++
++	char* nextword = NULL;
++
++	int wordsCounter;
++
++	do {
++
++		printf("Type a few words separated by space (q - to quit): \n");
++		fgets(words, BUFFER_SIZE, stdin);
++		words[strlen(words) - 1] = '\0';
++
++		if (strcmp(words, "q") != 0)
++		{
++
++			nextword = strtok(words, " ");
++
++			wordsCounter = 1;
++
++			while (nextword) {
++
++				printf("word #%d is \'%s\'\n", wordsCounter++, nextword);
++
++				nextword = strtok(NULL, "");
++
++			} 
++
++
++
++		}
++	} 
++	
++	while (strcmp(words, "q") != 0);
++	printf("*** End of Tokenizing Words Demo ***\n\n");
++}
+\ No newline at end of file
+diff --git a/tokenizing.h b/tokenizing.h
+new file mode 100644
+index 0000000..0d79d45
+--- /dev/null
++++ b/tokenizing.h
+@@ -0,0 +1,16 @@
++﻿/*The code aims to showcase a simple word tokenization demonstration.
++The code reads input words, separates them by spaces, and prints
++each word with a corresponding index. */
++
++
++#ifndef _TOKENIZING_H_
++#define _TOKENIZING_H_
++#include <stdio.h>
++#include <string.h>
++
++
++
++void tokenizing(void);
++#endif
++
++

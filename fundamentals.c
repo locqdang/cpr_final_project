@@ -13,7 +13,7 @@
 // Include the header file "fundamentals.h"
 #include "fundamentals.h"
 
-/*
+
 // Define a function named fundamental
 void fundamentals() {
 	// Version 1 
@@ -69,23 +69,23 @@ void fundamentals() {
 
 	// Print a message showing  the end of indexing string demo
 	printf("*** End of Indexing Strings Demo ***\n\n");
-}*/
-
-
 
 //version 2
 
-void fundamentals() {
-printf("*** start of measuring strings Demo ***\n");
-char buffer2[BUFFER_SIZE];
-do {
-	printf("Type a string (q - to quit):\n");
-	fgets(buffer2, BUFFER_SIZE, stdin);
-	buffer2[strlen(buffer2) - 1] = '\0';
-	if (strcmp(buffer2, "q") != 0)
-		printf("the length of \'%s\' is %d characters\n",
+
+	printf("*** start of measuring strings Demo ***\n");
+	char buffer2[BUFFER_SIZE];
+	do {
+		printf("Type a string (q - to quit):\n");
+		fgets(buffer2, BUFFER_SIZE, stdin);
+		buffer2[strlen(buffer2) - 1] = '\0';
+		if (strcmp(buffer2, "q") != 0)
+		{
+			printf("the length of \'%s\' is %d characters\n",
 				buffer2, (int)strlen(buffer2));
-} while (strcmp(buffer2, "q") != 0);
-printf("*** End of Measuring Strings Demo ***\n\n");
+		}
+	} while (strcmp(buffer2, "q") != 0);
+	printf("*** End of Measuring Strings Demo ***\n\n");
+
 }
 
