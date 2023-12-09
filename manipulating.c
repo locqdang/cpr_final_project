@@ -61,10 +61,6 @@ void manipulating(void)
      The loop continues until the user inputs 'q' to quit.
     The comparison results (less than, equal, or greater than) are displayed for each pair of strings. */
 
-
-
-
-
     printf("*** Start of Comparing Strings Demo ***\n");
 
     // Declare two character arrays to store input strings.
@@ -115,11 +111,64 @@ void manipulating(void)
     // Display an end message for the comparing strings demo.
     printf("*** End of Comparing Strings Demo *** \n\n");
     
+
+   // version 3
+
+    /*The main function of the code is to interactively demonstrate string copying in C.
+    It uses a do-while loop to repeatedly prompt the user for input, copies the input string to another variable, and prints the result.
+    The demonstration continues until the user enters "q" to quit, providing a simple illustration of string manipulation in C.
+    */
+
+    printf("*** Start of Copying Strings Demo ***\n");
+
+    // Declare character arrays to store source and destination strings
+    char destination[BUFFER_SIZE];
+    char source[BUFFER_SIZE];
+
+    // Start a do-while loop for user input and string copying
+    do
+    {
+        // Reset the destination string to an empty string
+        destination[0] = '\0';
+        printf("Destination string is reset to empty\n");
+
+        // Prompt the user to type the source string (q - to quit)
+        printf("Type the source string (q - to quit):\n");
+
+        // Read the source string from the user input
+        fgets(source, BUFFER_SIZE, stdin);
+
+        // Remove the newline character at the end of the source string
+        source[strlen(source) - 1] = '\0';
+
+        // Check if the user wants to quit (input is "q")
+        if (strcmp(source, "q") != 0)
+        {
+            // Copy the source string to the destination string
+            strcpy(destination, source);
+
+            // Print the new destination string
+            printf("New destination string is \'%s\'\n", destination);
+        }
+
+    }
+    // Continue the loop until the user types "q" to quit
+    while (strcmp(source, "q") != 0);
+
+    // Print a message indicating the end of the Copying Strings Demo
+    printf("*** End of Copying Strings Demo ***\n\n");
+
+
+
+
+
+
+
 }
 
 
 
-/* Version 3 */
+
 
 
 
