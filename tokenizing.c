@@ -73,4 +73,27 @@ void tokenizing(void)
 		}
 	} while (strcmp(phrases, "q") != 0);
 	printf("*** End of Tokenizing Phrases Demo ***\n\n");
+
+
+//version 3
+	printf("*** Start of Tokenizing Sentences Demo ***\n");
+	char	sentences[BUFFER_SIZE];
+	char* nextSentence = NULL;
+	int		sentencesCounter;
+	do {
+		printf("Type a few sentences separated by dot(q - to quit):\n");
+		fgets(sentences, BUFFER_SIZE, stdin);
+		sentences[strlen(sentences) - 1] = '\0';
+		if ((strcmp(sentences, "q") != 0)) {
+			nextSentence = strtok(sentences, ".");
+			sentencesCounter = 1;
+			while (nextSentence) {
+				printf("Sentence #  % d is \'%s\'\n", sentencesCounter++, nextSentence);
+				nextSentence = strtok(NULL, ".");
+			}
+		}
+	} while (strcmp(sentences, "q") != 0);
+	printf("*** End of Tokenizing Sentences Demo ***\n\n");
+
+
 }
