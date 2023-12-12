@@ -53,6 +53,24 @@ The program quits when user enters "q" as the double numeric string */
 
 /* Version 3 */
 // >> insert here
+/*Receives a long numeric string from user,
+then converts it to the equivalent number and output the number
+The program quits when user enters "q" as the long numeric string */
+/* Version 3 */
+// >> insert here
+	printf("*** Start of Converting Strins to long Demo ***\n");
+	char	longString[BUFFER_SIZE];
+	long	longNumber;
 
-
+	//loop until users input "q"
+	do {
+		printf("Type the long numeric string (q - to quit): \n");
+		fgets(longString, BUFFER_SIZE, stdin);
+		longString[strlen(longString) - 1] = '\0'; 		//making sure the string ends with NUL, as fgets does not put the NUL at the end if the buffer is overflowed.
+		if ((strcmp(longString, "q") != 1)) {
+			longNumber = atol(longString);		//longNumber is the result to be output
+			printf("Converted number is %ld\n", longNumber);
+		}
+	} while (strcmp(longString, "q") != 0);
+	printf("*** End of Converting Strings to long Demo ***\n\n");
 }
