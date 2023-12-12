@@ -114,49 +114,60 @@ void manipulating(void)
 
    // version 3
 
-    /*The main function of the code is to interactively demonstrate string copying in C.
-    It uses a do-while loop to repeatedly prompt the user for input, copies the input string to another variable, and prints the result.
-    The demonstration continues until the user enters "q" to quit, providing a simple illustration of string manipulation in C.
-    */
+    //version 3
 
-    printf("*** Start of Copying Strings Demo ***\n");
 
-    // Declare character arrays to store source and destination strings
-    char destination[BUFFER_SIZE];
-    char source[BUFFER_SIZE];
+    /*It demonstrates searching for a substring within a given string. The program continuously prompts the user to enter a string and a substring until the user enters 'q' to quit. It then searches for the entered substring within the string using the strstr function and prints the position of the substring if found.*/
+    
+    
+    // Display a starting message for the Searching Strings Demo
+    printf("*** Start of Searching Strings Demo ***\n");
 
-    // Start a do-while loop for user input and string copying
+    char haystack[BUFFER_SIZE];
+    char needle[BUFFER_SIZE];
+    char* occurrence = NULL;
+
+    // Start a do-while loop to repeatedly prompt the user for input
     do
     {
-        // Reset the destination string to an empty string
-        destination[0] = '\0';
-        printf("Destination string is reset to empty\n");
+        // Prompt the user to enter a string
+        printf("Type the string (q - to quit):\n");
 
-        // Prompt the user to type the source string (q - to quit)
-        printf("Type the source string (q - to quit):\n");
+        // Read the entered string (up to BUFFER_SIZE characters) from the standard input
+        fgets(haystack, BUFFER_SIZE, stdin);
 
-        // Read the source string from the user input
-        fgets(source, BUFFER_SIZE, stdin);
+        // Remove the newline character from the entered string
+        haystack[strlen(haystack) - 1] = '\0';
 
-        // Remove the newline character at the end of the source string
-        source[strlen(source) - 1] = '\0';
-
-        // Check if the user wants to quit (input is "q")
-        if (strcmp(source, "q") != 0)
+        // Check if the entered string is not 'q' (quit condition)
+        if (strcmp(haystack, "q") != 0)
         {
-            // Copy the source string to the destination string
-            strcpy(destination, source);
+            // Prompt the user to enter a substring to search for
+            printf("Type the substring:\n");
 
-            // Print the new destination string
-            printf("New destination string is \'%s\'\n", destination);
+            // Read the entered substring (up to BUFFER_SIZE characters) from the standard input
+            fgets(needle, BUFFER_SIZE, stdin);
+
+            // Remove the newline character from the entered substring
+            needle[strlen(needle) - 1] = '\0'; // Typo: should be '\0' to properly remove newline
+
+            // Search for the substring in the main string
+            occurrence = strstr(haystack, needle);
+
+            // Check if the substring is found in the main string
+            if (occurrence)
+                // Print the substring found and its position in the main string
+                printf("\'%s' found at %d position\n", needle, (int)(occurrence - haystack));
+            else
+                // Print a message indicating that the substring was not found
+                printf("Not found\n");
         }
 
-    }
-    // Continue the loop until the user types "q" to quit
-    while (strcmp(source, "q") != 0);
+        // Continue the loop if the entered string is not 'q'
+    } while (strcmp(haystack, "q") != 0);
 
-    // Print a message indicating the end of the Copying Strings Demo
-    printf("*** End of Copying Strings Demo ***\n\n");
+    // Display a closing message for the Searching Strings Demo
+    printf("*** End of Searching Strings Demo ***\n\n");
 
 
 
