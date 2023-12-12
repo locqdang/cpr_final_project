@@ -1,3 +1,895 @@
+commit 9ceda08cfdc05b3914129ea0467e93fe991e6913
+Author: nasimebahar70 <152922143+nasimebahar70@users.noreply.github.com>
+Date:   Mon Dec 11 21:47:51 2023 -0500
+
+    Update fundamentals.c
+    
+    fundamentals_v3. copy strings features and add comments to version 2
+
+diff --git a/fundamentals.c b/fundamentals.c
+index 7c51359..977ab9f 100644
+--- a/fundamentals.c
++++ b/fundamentals.c
+@@ -72,20 +72,83 @@ void fundamentals() {
+ 
+ //version 2
+ 
+-
++// Display a message indicating the start of the measuring strings demo.
+ 	printf("*** start of measuring strings Demo ***\n");
++
++	// Declare an array to store user input strings.
+ 	char buffer2[BUFFER_SIZE];
++
++	// Start a do-while loop that continues until the user enters 'q' to quit.
+ 	do {
++		// Prompt the user to type a string.
+ 		printf("Type a string (q - to quit):\n");
++
++		// Read a string from the user and store it in the buffer.
+ 		fgets(buffer2, BUFFER_SIZE, stdin);
++
++		// Remove the newline character at the end of the string (if any).
+ 		buffer2[strlen(buffer2) - 1] = '\0';
+-		if (strcmp(buffer2, "q") != 0)
+-		{
++
++		// Check if the entered string is not equal to 'q'.
++		if (strcmp(buffer2, "q") != 0) {
++			// If the entered string is not 'q', display its length.
+ 			printf("the length of \'%s\' is %d characters\n",
+ 				buffer2, (int)strlen(buffer2));
+ 		}
++
++		// Continue the loop as long as the user input is not 'q'.
+ 	} while (strcmp(buffer2, "q") != 0);
++
++	// Display a message indicating the end of the measuring strings demo.
+ 	printf("*** End of Measuring Strings Demo ***\n\n");
+ 
++
++
++	// version 3
++
++	 /*The main function of the code is to interactively demonstrate string copying in C.
++	 It uses a do-while loop to repeatedly prompt the user for input, copies the input string to another variable, and prints the result.
++	 The demonstration continues until the user enters "q" to quit, providing a simple illustration of string manipulation in C.
++	 */
++
++	printf("*** Start of Copying Strings Demo ***\n");
++
++	// Declare character arrays to store source and destination strings
++	char destination[BUFFER_SIZE];
++	char source[BUFFER_SIZE];
++
++	// Start a do-while loop for user input and string copying
++	do
++	{
++		// Reset the destination string to an empty string
++		destination[0] = '\0';
++		printf("Destination string is reset to empty\n");
++
++		// Prompt the user to type the source string (q - to quit)
++		printf("Type the source string (q - to quit):\n");
++
++		// Read the source string from the user input
++		fgets(source, BUFFER_SIZE, stdin);
++
++		// Remove the newline character at the end of the source string
++		source[strlen(source) - 1] = '\0';
++
++		// Check if the user wants to quit (input is "q")
++		if (strcmp(source, "q") != 0)
++		{
++			// Copy the source string to the destination string
++			strcpy(destination, source);
++
++			// Print the new destination string
++			printf("New destination string is \'%s\'\n", destination);
++		}
++
++	}
++	// Continue the loop until the user types "q" to quit
++	while (strcmp(source, "q") != 0);
++
++	// Print a message indicating the end of the Copying Strings Demo
++	printf("*** End of Copying Strings Demo ***\n\n");
++
+ }
+ 
+
+commit 5616e65e839bae4900ee7c7891bd586695044341
+Author: DongNgo <dngo13@myseneca.ca>
+Date:   Thu Dec 7 20:24:01 2023 -0500
+
+    Testing done
+
+diff --git a/fundamentals-git-log.txt b/fundamentals-git-log.txt
+index 7d07298..4ade24a 100644
+--- a/fundamentals-git-log.txt
++++ b/fundamentals-git-log.txt
+@@ -1,94 +1,580 @@
+-commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:57 2023 -0500
+-
+-    Add files via upload
+-
+-commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:14 2023 -0500
+-
+-    Delete .vs directory
+-
+-commit 7f2c689bc852911f778e67838eb34a599de1c3f0
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:06:01 2023 -0500
+-
+-    Delete converting directory
+-
+-commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:52 2023 -0500
+-
+-    Delete fundamental - Bahareh directory
+-
+-commit b5c25d1188807fd9fc3c0731168027a28b89d06c
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:41 2023 -0500
+-
+-    Delete main directory
+-
+-commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:31 2023 -0500
+-
+-    Delete manipulating directory
+-
+-commit 68d9e3081d180945dad389d4e0088bb09caccdba
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:21 2023 -0500
+-
+-    Delete source_code_photos directory
+-
+-commit b5d7b24eb731437832793513ee20d6f17323cc6f
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:05:10 2023 -0500
+-
+-    Delete to_submit directory
+-
+-commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 21:04:49 2023 -0500
+-
+-    Delete Tokenization directory
+-
+-commit ab0d331de76203669f0b167c8e0c1c0e8f622215
+-Merge: 676e75f 18e08f7
+-Author: Lockie <quacktothetenth@duck.com>
+-Date:   Thu Nov 30 19:12:59 2023 -0500
+-
+-    Merge branch 'main' of github.com:locqdang/cpr_final_project
+-    pulling after there is some change in the remote repo
+-
+-commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 19:06:37 2023 -0500
+-
+-    test push
+-
+-commit 18e08f7220fb515dc26e68f973c2d8361b69c823
+-Merge: 8a65d16 777a73d
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 19:00:37 2023 -0500
+-
+-    Merge pull request #1 from quacktothetenth/main
+-    
+-    Update main.c
+-
+-commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
+-Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
+-Date:   Thu Nov 30 18:58:36 2023 -0500
+-
+-    Update main.c
+-
+-commit 8a65d166804c002f745498cd8897aa885ab15635
+-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+-Date:   Thu Nov 30 15:10:40 2023 -0500
+-
+-    first commit
+-
+-commit 12a5298b18505b5608d7cee822c2440b60b54036
+-Author: Lockie <quacktothetenth@duck.com>
+-Date:   Thu Nov 30 14:42:29 2023 -0500
+-
+-    version 1.0.0: git created
++commit 5d5ebb8406ea2e1b83a7ab3cae67071e27c29af9
++Merge: 8fe595b fb6799d
++Author: DongNgo <dngo13@myseneca.ca>
++Date:   Thu Dec 7 15:16:39 2023 -0500
++
++    Merge branch 'main' of converting-testing.txt
++    
++     https://github.com/locqdang/cpr_final_project
++
++commit 8fe595bb2eaf954c0cdac1d57628bf174b304e04
++Author: DongNgo <dngo13@myseneca.ca>
++Date:   Thu Dec 7 15:07:07 2023 -0500
++
++    converting-testing.txt is done
++
++diff --git a/fundamentals-git-log.txt b/fundamentals-git-log.txt
++index f14835e..7d07298 100644
++--- a/fundamentals-git-log.txt
+++++ b/fundamentals-git-log.txt
++@@ -1,94 +1,94 @@
++-commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:06:57 2023 -0500
++-
++-    Add files via upload
++-
++-commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:06:14 2023 -0500
++-
++-    Delete .vs directory
++-
++-commit 7f2c689bc852911f778e67838eb34a599de1c3f0
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:06:01 2023 -0500
++-
++-    Delete converting directory
++-
++-commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:05:52 2023 -0500
++-
++-    Delete fundamental - Bahareh directory
++-
++-commit b5c25d1188807fd9fc3c0731168027a28b89d06c
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:05:41 2023 -0500
++-
++-    Delete main directory
++-
++-commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:05:31 2023 -0500
++-
++-    Delete manipulating directory
++-
++-commit 68d9e3081d180945dad389d4e0088bb09caccdba
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:05:21 2023 -0500
++-
++-    Delete source_code_photos directory
++-
++-commit b5d7b24eb731437832793513ee20d6f17323cc6f
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:05:10 2023 -0500
++-
++-    Delete to_submit directory
++-
++-commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 21:04:49 2023 -0500
++-
++-    Delete Tokenization directory
++-
++-commit ab0d331de76203669f0b167c8e0c1c0e8f622215
++-Merge: 676e75f 18e08f7
++-Author: Lockie <quacktothetenth@duck.com>
++-Date:   Thu Nov 30 19:12:59 2023 -0500
++-
++-    Merge branch 'main' of github.com:locqdang/cpr_final_project
++-    pulling after there is some change in the remote repo
++-
++-commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 19:06:37 2023 -0500
++-
++-    test push
++-
++-commit 18e08f7220fb515dc26e68f973c2d8361b69c823
++-Merge: 8a65d16 777a73d
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 19:00:37 2023 -0500
++-
++-    Merge pull request #1 from quacktothetenth/main
++-    
++-    Update main.c
++-
++-commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
++-Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
++-Date:   Thu Nov 30 18:58:36 2023 -0500
++-
++-    Update main.c
++-
++-commit 8a65d166804c002f745498cd8897aa885ab15635
++-Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++-Date:   Thu Nov 30 15:10:40 2023 -0500
++-
++-    first commit
++-
++-commit 12a5298b18505b5608d7cee822c2440b60b54036
++-Author: Lockie <quacktothetenth@duck.com>
++-Date:   Thu Nov 30 14:42:29 2023 -0500
++-
++-    version 1.0.0: git created
+++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:06:57 2023 -0500
+++
+++    Add files via upload
+++
+++commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:06:14 2023 -0500
+++
+++    Delete .vs directory
+++
+++commit 7f2c689bc852911f778e67838eb34a599de1c3f0
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:06:01 2023 -0500
+++
+++    Delete converting directory
+++
+++commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:52 2023 -0500
+++
+++    Delete fundamental - Bahareh directory
+++
+++commit b5c25d1188807fd9fc3c0731168027a28b89d06c
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:41 2023 -0500
+++
+++    Delete main directory
+++
+++commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:31 2023 -0500
+++
+++    Delete manipulating directory
+++
+++commit 68d9e3081d180945dad389d4e0088bb09caccdba
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:21 2023 -0500
+++
+++    Delete source_code_photos directory
+++
+++commit b5d7b24eb731437832793513ee20d6f17323cc6f
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:10 2023 -0500
+++
+++    Delete to_submit directory
+++
+++commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:04:49 2023 -0500
+++
+++    Delete Tokenization directory
+++
+++commit ab0d331de76203669f0b167c8e0c1c0e8f622215
+++Merge: 676e75f 18e08f7
+++Author: Lockie <quacktothetenth@duck.com>
+++Date:   Thu Nov 30 19:12:59 2023 -0500
+++
+++    Merge branch 'main' of github.com:locqdang/cpr_final_project
+++    pulling after there is some change in the remote repo
+++
+++commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 19:06:37 2023 -0500
+++
+++    test push
+++
+++commit 18e08f7220fb515dc26e68f973c2d8361b69c823
+++Merge: 8a65d16 777a73d
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 19:00:37 2023 -0500
+++
+++    Merge pull request #1 from quacktothetenth/main
+++    
+++    Update main.c
+++
+++commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
+++Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
+++Date:   Thu Nov 30 18:58:36 2023 -0500
+++
+++    Update main.c
+++
+++commit 8a65d166804c002f745498cd8897aa885ab15635
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 15:10:40 2023 -0500
+++
+++    first commit
+++
+++commit 12a5298b18505b5608d7cee822c2440b60b54036
+++Author: Lockie <quacktothetenth@duck.com>
+++Date:   Thu Nov 30 14:42:29 2023 -0500
+++
+++    version 1.0.0: git created
++
++commit 0e74780a3fd09fa65b8b4e1759fdf01415b18e28
++Author: Bahareh <nasimebahar70@gmail.com>
++Date:   Thu Dec 7 14:34:49 2023 -0500
++
++    fundamentals_v2
++
++diff --git a/fundamentals.c b/fundamentals.c
++index c362375..2b65e72 100644
++--- a/fundamentals.c
+++++ b/fundamentals.c
++@@ -13,9 +13,10 @@
++ // Include the header file "fundamentals.h"
++ #include "fundamentals.h"
++ 
+++/*
++ // Define a function named fundamental
++ void fundamentals() {
++-	/* Version 1 */
+++	// Version 1 
++ 
++ 	// Print a message denoting start of the indexing string demo
++ 	printf("*** Start of Indexing Strings Demo ***\n");
++@@ -68,7 +69,23 @@ void fundamentals() {
++ 
++ 	// Print a message showing  the end of indexing string demo
++ 	printf("*** End of Indexing Strings Demo ***\n\n");
++-}
+++}*/
+++
+++
++ 
+++//version 2
++ 
+++void fundamentals() {
+++printf("*** start of measuring strings Demo ***\n");
+++char buffer2[BUFFER_SIZE];
+++do {
+++	printf("Type a string (q - to quit):\n");
+++	fgets(buffer2, BUFFER_SIZE, stdin);
+++	buffer2[strlen(buffer2) - 1] = '\0';
+++	if (strcmp(buffer2, "q") != 0)
+++		printf("the length of \'%s\' is %d characters\n",
+++				buffer2, (int)strlen(buffer2));
+++} while (strcmp(buffer2, "q") != 0);
+++printf("*** End of Measuring Strings Demo ***\n\n");
+++}
++ 
++
++commit 11c97419d566c368df69e7d176f5a0faca5774cd
++Author: Loc Dang <ldang15@myseneca.ca>
++Date:   Thu Nov 30 21:57:35 2023 -0500
++
++    overwritting all git-log files
++
++diff --git a/fundamentals-git-log.txt b/fundamentals-git-log.txt
++index 2d570d4..f14835e 100644
++--- a/fundamentals-git-log.txt
+++++ b/fundamentals-git-log.txt
++@@ -1,30 +1,94 @@
++-1 - Fundamentals
++-2 - Manipulation
++-3 - Converting
++-4 - Tokenizing
++-0 - Exit
++-Which module to run?
++-1
++-*** Start of Indexing Strings Demo ***
++-Type not empty string (q - to quit):
++-0
++-Type the character position within the string:
++-0
++-The character found at 0 posiition is '0'
++-Type not empty string (q - to quit):
++-abc
++-Type the character position within the string:
++-2
++-The character found at 2 posiition is 'c'
++-Type not empty string (q - to quit):
++-abc
++-Type the character position within the string:
++-5
++-Too big... position reduced to max.available
++-The character found at 2 posiition is 'c'
++-Type not empty string (q - to quit):
++-input String
++-Type the character position within the string:
++-4
++-The character found at 4 posiition is 't'
++-Type not empty string (q - to quit):
++\ No newline at end of file
+++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:06:57 2023 -0500
+++
+++    Add files via upload
+++
+++commit 2ed9b35f650fd01e4973c52dd686aeecbedc83a1
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:06:14 2023 -0500
+++
+++    Delete .vs directory
+++
+++commit 7f2c689bc852911f778e67838eb34a599de1c3f0
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:06:01 2023 -0500
+++
+++    Delete converting directory
+++
+++commit 7d2146effd9c37d45d0342fc4f475bd5a09e296c
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:52 2023 -0500
+++
+++    Delete fundamental - Bahareh directory
+++
+++commit b5c25d1188807fd9fc3c0731168027a28b89d06c
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:41 2023 -0500
+++
+++    Delete main directory
+++
+++commit d6bc075ae1d362b4ca9904e5f37bb2ff395be6f1
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:31 2023 -0500
+++
+++    Delete manipulating directory
+++
+++commit 68d9e3081d180945dad389d4e0088bb09caccdba
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:21 2023 -0500
+++
+++    Delete source_code_photos directory
+++
+++commit b5d7b24eb731437832793513ee20d6f17323cc6f
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:05:10 2023 -0500
+++
+++    Delete to_submit directory
+++
+++commit 255908e28826e5ad6a6bd44040be58f7f4803c9b
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 21:04:49 2023 -0500
+++
+++    Delete Tokenization directory
+++
+++commit ab0d331de76203669f0b167c8e0c1c0e8f622215
+++Merge: 676e75f 18e08f7
+++Author: Lockie <quacktothetenth@duck.com>
+++Date:   Thu Nov 30 19:12:59 2023 -0500
+++
+++    Merge branch 'main' of github.com:locqdang/cpr_final_project
+++    pulling after there is some change in the remote repo
+++
+++commit 676e75ff5bdc0c213f75224abbe4f4c9c592bb57
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 19:06:37 2023 -0500
+++
+++    test push
+++
+++commit 18e08f7220fb515dc26e68f973c2d8361b69c823
+++Merge: 8a65d16 777a73d
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 19:00:37 2023 -0500
+++
+++    Merge pull request #1 from quacktothetenth/main
+++    
+++    Update main.c
+++
+++commit 777a73d0d8adc8330f36e5825807b5f534ab8c98
+++Author: quacktothetenth <152566354+quacktothetenth@users.noreply.github.com>
+++Date:   Thu Nov 30 18:58:36 2023 -0500
+++
+++    Update main.c
+++
+++commit 8a65d166804c002f745498cd8897aa885ab15635
+++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
+++Date:   Thu Nov 30 15:10:40 2023 -0500
+++
+++    first commit
+++
+++commit 12a5298b18505b5608d7cee822c2440b60b54036
+++Author: Lockie <quacktothetenth@duck.com>
+++Date:   Thu Nov 30 14:42:29 2023 -0500
+++
+++    version 1.0.0: git created
++
++commit 3eb50201cc1f0cd5dc9bb7764986e7edb79343f9
++Author: Locqdang <74763262+locqdang@users.noreply.github.com>
++Date:   Thu Nov 30 21:06:57 2023 -0500
++
++    Add files via upload
++
++diff --git a/fundamentals-git-log.txt b/fundamentals-git-log.txt
++new file mode 100644
++index 0000000..2d570d4
++--- /dev/null
+++++ b/fundamentals-git-log.txt
++@@ -0,0 +1,30 @@
+++1 - Fundamentals
+++2 - Manipulation
+++3 - Converting
+++4 - Tokenizing
+++0 - Exit
+++Which module to run?
+++1
+++*** Start of Indexing Strings Demo ***
+++Type not empty string (q - to quit):
+++0
+++Type the character position within the string:
+++0
+++The character found at 0 posiition is '0'
+++Type not empty string (q - to quit):
+++abc
+++Type the character position within the string:
+++2
+++The character found at 2 posiition is 'c'
+++Type not empty string (q - to quit):
+++abc
+++Type the character position within the string:
+++5
+++Too big... position reduced to max.available
+++The character found at 2 posiition is 'c'
+++Type not empty string (q - to quit):
+++input String
+++Type the character position within the string:
+++4
+++The character found at 4 posiition is 't'
+++Type not empty string (q - to quit):
++\ No newline at end of file
++diff --git a/fundamentals-testing.txt b/fundamentals-testing.txt
++new file mode 100644
++index 0000000..2d570d4
++--- /dev/null
+++++ b/fundamentals-testing.txt
++@@ -0,0 +1,30 @@
+++1 - Fundamentals
+++2 - Manipulation
+++3 - Converting
+++4 - Tokenizing
+++0 - Exit
+++Which module to run?
+++1
+++*** Start of Indexing Strings Demo ***
+++Type not empty string (q - to quit):
+++0
+++Type the character position within the string:
+++0
+++The character found at 0 posiition is '0'
+++Type not empty string (q - to quit):
+++abc
+++Type the character position within the string:
+++2
+++The character found at 2 posiition is 'c'
+++Type not empty string (q - to quit):
+++abc
+++Type the character position within the string:
+++5
+++Too big... position reduced to max.available
+++The character found at 2 posiition is 'c'
+++Type not empty string (q - to quit):
+++input String
+++Type the character position within the string:
+++4
+++The character found at 4 posiition is 't'
+++Type not empty string (q - to quit):
++\ No newline at end of file
++diff --git a/fundamentals.c b/fundamentals.c
++new file mode 100644
++index 0000000..c362375
++--- /dev/null
+++++ b/fundamentals.c
++@@ -0,0 +1,74 @@
+++//This mudule , take a string and a number (as input ) ,
+++// then stores them in two arrays , 
+++// in the loop, it is checked that ifinput character not to be 'q'
+++// then continue receiving input.
+++// the input number is the position of a character 
+++// then this character will be shown  
+++
+++// //FUNDAMENTALS MODULE SOURCE
+++#define _CRT_SECURE_NO_WARNINGS
+++#define BUFFER_SIZE     80
+++#define NUM_INPUT_SIZE  10
+++
+++// Include the header file "fundamentals.h"
+++#include "fundamentals.h"
+++
+++// Define a function named fundamental
+++void fundamentals() {
+++	/* Version 1 */
+++
+++	// Print a message denoting start of the indexing string demo
+++	printf("*** Start of Indexing Strings Demo ***\n");
+++
+++	// Declare character arrays storing input characters
+++	char    buffer1[BUFFER_SIZE];
+++	char    numInput[NUM_INPUT_SIZE];
+++
+++	// Declare a structure storing position of character inside the string
+++	size_t  position;
+++
+++	// writing a loop in order to repeatedly prompt user to input the string 
+++	do {
+++
+++		// Prompt the user to input a non-empty string
+++		printf("Type not empty string (q - to quit):\n");
+++		fgets(buffer1, BUFFER_SIZE, stdin);
+++
+++		// omit the new character at the end of string
+++		buffer1[strlen(buffer1) - 1] = '\0';
+++
+++		// Check whether input character is not 'q' to continue
+++		if (strcmp(buffer1, "q") != 0) {
+++
+++			// Prompt the user to input the character position within the string
+++
+++			printf("Type the character position within the string:\n");
+++			fgets(numInput, NUM_INPUT_SIZE, stdin);
+++
+++			// omit the new character at the end of the input
+++			numInput[strlen(numInput) - 1] = '\0';
+++
+++			// Convert the user input to an integer (position)
+++			position = atoi(numInput);
+++
+++			// Check if the position is greater than or equal to the string length
+++			if (position >= strlen(buffer1)) {
+++
+++				// Adjust the position to the maximum available
+++				position = strlen(buffer1) - 1;
+++				printf("Too big... position reduced to max.available\n");
+++
+++			}
+++
+++			// Print the character found at definite position
+++			printf("The character found at %d posiition is \'%c\'\n", (int)position, buffer1[position]);
+++
+++		}
+++	} while (strcmp(buffer1, "q") != 0);
+++
+++	// Print a message showing  the end of indexing string demo
+++	printf("*** End of Indexing Strings Demo ***\n\n");
+++}
+++
+++
+++
++diff --git a/fundamentals.h b/fundamentals.h
++new file mode 100644
++index 0000000..ba3b6be
++--- /dev/null
+++++ b/fundamentals.h
++@@ -0,0 +1,20 @@
+++#pragma once
+++//FUNDAMENTALS MODULE HEADER
+++
+++// Header files for checking whether the identifier has not been defined yet.
+++#ifndef _FUNDAMENTALS_H_
+++
+++//if the identifier has not been defined it is defined here
+++#define _FFUNDAMENTALS_H_
+++
+++// Include  libraries that are necessary for I/O, allocating memory and string manipulation
+++#include <stdio.h>
+++#include <stdlib.h>
+++#include <string.h>
+++
+++// Function prototype for the function 'fundamentals' 
+++// The function doesnt have any parameters so returns void
+++void fundamentals(void);
+++
+++// End of the header 
+++#endif
+diff --git a/fundamentals-testing.txt b/fundamentals-testing.txt
+index 2d570d4..ffbd23e 100644
+--- a/fundamentals-testing.txt
++++ b/fundamentals-testing.txt
+@@ -1,3 +1,5 @@
++
++dong123@Dong:/mnt/c/Cpr$ ./main.out
+ 1 - Fundamentals
+ 2 - Manipulation
+ 3 - Converting
+@@ -27,4 +29,41 @@ input String
+ Type the character position within the string:
+ 4
+ The character found at 4 posiition is 't'
+-Type not empty string (q - to quit):
+\ No newline at end of file
++Type not empty string (q - to quit):
++fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffa
++Type the character position within the string:
++The character found at 0 posiition is 'f'
++Type not empty string (q - to quit):
++q
++*** End of Indexing Strings Demo ***
++
++*** start of measuring strings Demo ***
++Type a string (q - to quit):
++q
++*** End of Measuring Strings Demo ***
++
++Which module to run?
++1 - Fundamentals
++2 - Manipulation
++3 - Converting
++4 - Tokenizing
++0 - Exit
++Which module to run?
++1
++*** Start of Indexing Strings Demo ***
++Type not empty string (q - to quit):
++q
++*** End of Indexing Strings Demo ***
++
++*** start of measuring strings Demo ***
++Type a string (q - to quit):
++abc
++the length of 'abc' is 3 characters
++Type a string (q - to quit):
++the length of '' is 0 characters
++Type a string (q - to quit):
++ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffabcdefg
++the length of 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffab' is 78 characters
++Type a string (q - to quit):
++the length of 'defg' is 4 characters
++Type a string (q - to quit):
+\ No newline at end of file
+diff --git a/fundamentals.c b/fundamentals.c
+index 2b65e72..7c51359 100644
+--- a/fundamentals.c
++++ b/fundamentals.c
+@@ -13,7 +13,7 @@
+ // Include the header file "fundamentals.h"
+ #include "fundamentals.h"
+ 
+-/*
++
+ // Define a function named fundamental
+ void fundamentals() {
+ 	// Version 1 
+@@ -69,23 +69,23 @@ void fundamentals() {
+ 
+ 	// Print a message showing  the end of indexing string demo
+ 	printf("*** End of Indexing Strings Demo ***\n\n");
+-}*/
+-
+-
+ 
+ //version 2
+ 
+-void fundamentals() {
+-printf("*** start of measuring strings Demo ***\n");
+-char buffer2[BUFFER_SIZE];
+-do {
+-	printf("Type a string (q - to quit):\n");
+-	fgets(buffer2, BUFFER_SIZE, stdin);
+-	buffer2[strlen(buffer2) - 1] = '\0';
+-	if (strcmp(buffer2, "q") != 0)
+-		printf("the length of \'%s\' is %d characters\n",
++
++	printf("*** start of measuring strings Demo ***\n");
++	char buffer2[BUFFER_SIZE];
++	do {
++		printf("Type a string (q - to quit):\n");
++		fgets(buffer2, BUFFER_SIZE, stdin);
++		buffer2[strlen(buffer2) - 1] = '\0';
++		if (strcmp(buffer2, "q") != 0)
++		{
++			printf("the length of \'%s\' is %d characters\n",
+ 				buffer2, (int)strlen(buffer2));
+-} while (strcmp(buffer2, "q") != 0);
+-printf("*** End of Measuring Strings Demo ***\n\n");
++		}
++	} while (strcmp(buffer2, "q") != 0);
++	printf("*** End of Measuring Strings Demo ***\n\n");
++
+ }
+ 
+
 commit 5d5ebb8406ea2e1b83a7ab3cae67071e27c29af9
 Merge: 8fe595b fb6799d
 Author: DongNgo <dngo13@myseneca.ca>
